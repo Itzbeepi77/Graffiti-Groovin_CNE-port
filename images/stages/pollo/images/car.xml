@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="car.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="car loop0000" x="0" y="0" width="582" height="440" frameX="0" frameY="-1" frameWidth="582" frameHeight="441"/>
+	<SubTexture name="car loop0001" x="0" y="440" width="582" height="441"/>
+</TextureAtlas>

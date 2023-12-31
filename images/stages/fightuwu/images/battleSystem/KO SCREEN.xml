@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="KO SCREEN.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="screen loop0000" x="0" y="0" width="1520" height="945"/>
+	<SubTexture name="screen loop0001" x="0" y="945" width="1520" height="945"/>
+	<SubTexture name="screen loop0002" x="0" y="1890" width="1520" height="945"/>
+</TextureAtlas>

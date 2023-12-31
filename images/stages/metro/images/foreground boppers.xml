@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.2 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="foreground boppers.png" width="2528" height="1980">
+	<SubTexture name="foreground bop0000" x="1" y="836" width="2487" height="370" frameX="-13" frameY="-46" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0008" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0006" x="1" y="420" width="2505" height="413" frameX="-14" frameY="-3" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0002" x="1" y="1209" width="2475" height="377" frameX="-24" frameY="-39" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0004" x="1" y="1589" width="2451" height="390" frameX="-35" frameY="-26" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0001" x="1" y="836" width="2487" height="370" frameX="-13" frameY="-46" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0003" x="1" y="1209" width="2475" height="377" frameX="-24" frameY="-39" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0005" x="1" y="1589" width="2451" height="390" frameX="-35" frameY="-26" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0007" x="1" y="420" width="2505" height="413" frameX="-14" frameY="-3" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0009" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0010" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0011" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0012" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+	<SubTexture name="foreground bop0013" x="1" y="1" width="2526" height="416" frameX="-0" frameY="-0" frameWidth="2530" frameHeight="416"/>
+</TextureAtlas>

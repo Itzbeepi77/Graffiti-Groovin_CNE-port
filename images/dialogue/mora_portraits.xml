@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="mora_portraits.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture x="0" frameWidth="0" y="0" frameX="5" name="glad0000" frameHeight="0" frameY="0" width="431" height="567"/>
+	<SubTexture x="431" frameWidth="0" y="0" frameX="-26" name="mad0000" frameHeight="0" frameY="18" width="417" height="543"/>
+</TextureAtlas>

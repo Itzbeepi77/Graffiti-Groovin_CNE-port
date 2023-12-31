@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="melody.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="doors closed0000" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0001" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0002" x="515" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0003" x="515" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0004" x="1029" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0005" x="1029" y="1" width="511" height="420"/>
+	<SubTexture name="doors closed0006" x="1" y="424" width="511" height="420"/>
+	<SubTexture name="doors closed0007" x="1" y="424" width="511" height="420"/>
+	<SubTexture name="doors closed0008" x="515" y="424" width="511" height="420"/>
+	<SubTexture name="doors open0000" x="515" y="424" width="511" height="420"/>
+	<SubTexture name="doors open0001" x="515" y="424" width="511" height="420"/>
+	<SubTexture name="doors open0002" x="1029" y="424" width="511" height="420"/>
+	<SubTexture name="doors open0003" x="1029" y="424" width="511" height="420"/>
+	<SubTexture name="doors open0004" x="1" y="847" width="511" height="420"/>
+	<SubTexture name="doors open0005" x="1" y="847" width="511" height="420"/>
+	<SubTexture name="doors open0006" x="515" y="847" width="511" height="420"/>
+	<SubTexture name="doors open0007" x="1029" y="847" width="511" height="420"/>
+	<SubTexture name="doors open0008" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0009" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0010" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0011" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0012" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0013" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0014" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0015" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0016" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0017" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0018" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0019" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0020" x="1" y="1" width="511" height="420"/>
+	<SubTexture name="doors open0021" x="1" y="1" width="511" height="420"/>
+</TextureAtlas>

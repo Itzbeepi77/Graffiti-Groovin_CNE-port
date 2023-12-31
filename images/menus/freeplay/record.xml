@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="record.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vinyl0000" x="0" y="0" width="1263" height="1335"/>
+	<SubTexture name="vinyl0001" x="1263" y="0" width="1263" height="1335"/>
+	<SubTexture name="vinyl0002" x="2526" y="0" width="1263" height="1335"/>
+</TextureAtlas>

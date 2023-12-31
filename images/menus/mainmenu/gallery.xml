@@ -1,0 +1,15 @@
+<TextureAtlas width="1642" imagePath="gallery.png" height="1142">
+	<SubTexture x="1123" frameWidth="519" y="956" frameX="-1" name="gallery0000" frameHeight="160" frameY="-0" width="518" height="160"/>
+	<SubTexture x="1" frameWidth="568" y="775" frameX="-2" name="gallery press0000" frameHeight="187" frameY="0" width="521" height="163"/>
+	<SubTexture x="559" frameWidth="568" y="766" frameX="45" name="gallery press0001" frameHeight="187" frameY="24" width="568" height="187"/>
+	<SubTexture x="559" frameWidth="568" y="766" frameX="45" name="gallery press0002" frameHeight="187" frameY="24" width="568" height="187"/>
+	<SubTexture x="565" frameWidth="568" y="956" frameX="32" name="gallery press0003" frameHeight="187" frameY="18" width="555" height="181"/>
+	<SubTexture x="565" frameWidth="568" y="956" frameX="32" name="gallery press0004" frameHeight="187" frameY="18" width="555" height="181"/>
+	<SubTexture x="1" frameWidth="568" y="956" frameX="38" name="gallery press0005" frameHeight="187" frameY="22" width="561" height="185"/>
+	<SubTexture x="565" frameWidth="568" y="1" frameX="-1" name="gallery press20000" frameHeight="385" frameY="70" width="522" height="233"/>
+	<SubTexture x="559" frameWidth="568" y="387" frameX="45" name="gallery press20001" frameHeight="385" frameY="213" width="568" height="376"/>
+	<SubTexture x="559" frameWidth="568" y="387" frameX="45" name="gallery press20002" frameHeight="385" frameY="213" width="568" height="376"/>
+	<SubTexture x="1" frameWidth="568" y="387" frameX="32" name="gallery press20003" frameHeight="385" frameY="222" width="555" height="385"/>
+	<SubTexture x="1" frameWidth="568" y="387" frameX="32" name="gallery press20004" frameHeight="385" frameY="222" width="555" height="385"/>
+	<SubTexture x="1" frameWidth="568" y="1" frameX="38" name="gallery press20005" frameHeight="385" frameY="220" width="561" height="383"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arrow-nycto.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="plague note0000" x="213" y="195" width="183" height="190" frameX="-14" frameY="-14" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0001" x="213" y="195" width="183" height="190" frameX="-14" frameY="-14" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0002" x="0" y="207" width="213" height="187" frameX="0" frameY="-5" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0003" x="0" y="207" width="213" height="187" frameX="0" frameY="-5" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0004" x="0" y="0" width="203" height="207" frameX="-17" frameY="0" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0005" x="0" y="0" width="203" height="207" frameX="-17" frameY="0" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0006" x="203" y="0" width="190" height="195" frameX="-21" frameY="-2" frameWidth="220" frameHeight="207"/>
+	<SubTexture name="plague note0007" x="203" y="0" width="190" height="195" frameX="-21" frameY="-2" frameWidth="220" frameHeight="207"/>
+</TextureAtlas>

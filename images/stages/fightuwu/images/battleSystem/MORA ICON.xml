@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MORA ICON.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loop0000" x="684" y="0" width="337" height="345" frameX="-5" frameY="-17" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0001" x="684" y="0" width="337" height="345" frameX="-5" frameY="-17" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0002" x="683" y="345" width="337" height="344" frameX="-8" frameY="-14" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0003" x="683" y="345" width="337" height="344" frameX="-8" frameY="-14" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0004" x="342" y="344" width="341" height="343" frameX="-7" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0005" x="342" y="344" width="341" height="343" frameX="-7" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0006" x="343" y="0" width="341" height="344" frameX="-4" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0007" x="343" y="0" width="341" height="344" frameX="-4" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0008" x="0" y="0" width="343" height="344" frameX="0" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0009" x="0" y="0" width="343" height="344" frameX="0" frameY="-3" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0010" x="0" y="344" width="342" height="343" frameX="-3" frameY="0" frameWidth="348" frameHeight="362"/>
+	<SubTexture name="loop0011" x="0" y="344" width="342" height="343" frameX="-3" frameY="0" frameWidth="348" frameHeight="362"/>
+</TextureAtlas>

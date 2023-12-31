@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skarlet-drop.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="1" y="1" width="1296" height="1223" frameX="-4" frameY="-26" frameWidth="1300" frameHeight="1249"/>
+	<SubTexture name="down0001" x="1300" y="1" width="1296" height="1223" frameX="-4" frameY="-26" frameWidth="1300" frameHeight="1249"/>
+	<SubTexture name="down0002" x="2599" y="1" width="1247" height="1249" frameX="0" frameY="0" frameWidth="1300" frameHeight="1249"/>
+	<SubTexture name="down0003" x="3849" y="1" width="1247" height="1249" frameX="0" frameY="0" frameWidth="1300" frameHeight="1249"/>
+	<SubTexture name="down0004" x="5099" y="1" width="1247" height="1249" frameX="0" frameY="0" frameWidth="1300" frameHeight="1249"/>
+	<SubTexture name="left0000" x="6349" y="1" width="1465" height="1411"/>
+	<SubTexture name="left0001" x="1" y="1415" width="1456" height="1411" frameX="-9" frameY="0" frameWidth="1465" frameHeight="1411"/>
+	<SubTexture name="left0002" x="1460" y="1415" width="1353" height="1401" frameX="-24" frameY="-10" frameWidth="1465" frameHeight="1411"/>
+	<SubTexture name="left0003" x="2816" y="1415" width="1377" height="1401" frameX="0" frameY="-10" frameWidth="1465" frameHeight="1411"/>
+	<SubTexture name="left0004" x="4196" y="1415" width="1368" height="1401" frameX="-9" frameY="-10" frameWidth="1465" frameHeight="1411"/>
+	<SubTexture name="right0000" x="5567" y="1415" width="1643" height="1343" frameX="0" frameY="-3" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="right0001" x="1" y="2829" width="1643" height="1343" frameX="0" frameY="-3" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="right0002" x="1647" y="2829" width="1462" height="1344" frameX="-93" frameY="0" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="right0003" x="3112" y="2829" width="1462" height="1344" frameX="-93" frameY="0" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="right0004" x="4577" y="2829" width="1462" height="1344" frameX="-93" frameY="0" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="right0005" x="1647" y="2829" width="1462" height="1344" frameX="-93" frameY="0" frameWidth="1643" frameHeight="1346"/>
+	<SubTexture name="up0000" x="6042" y="2829" width="1102" height="1601" frameX="-23" frameY="0" frameWidth="1175" frameHeight="1601"/>
+	<SubTexture name="up0001" x="1" y="4433" width="1084" height="1601" frameX="-41" frameY="0" frameWidth="1175" frameHeight="1601"/>
+	<SubTexture name="up0002" x="1088" y="4433" width="1175" height="1557" frameX="0" frameY="-24" frameWidth="1175" frameHeight="1601"/>
+	<SubTexture name="up0003" x="2266" y="4433" width="1175" height="1557" frameX="0" frameY="-24" frameWidth="1175" frameHeight="1601"/>
+	<SubTexture name="up0004" x="3444" y="4433" width="1175" height="1557" frameX="0" frameY="-24" frameWidth="1175" frameHeight="1601"/>
+</TextureAtlas>

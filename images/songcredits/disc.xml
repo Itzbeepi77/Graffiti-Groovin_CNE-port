@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="disc.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="disc loop0000" x="802" y="1" width="150" height="159"/>
+	<SubTexture name="disc loop0001" x="802" y="161" width="150" height="159"/>
+	<SubTexture name="disc loop0002" x="670" y="321" width="150" height="159"/>
+	<SubTexture name="disc loop0003" x="511" y="379" width="150" height="159"/>
+	<SubTexture name="disc loop0004" x="821" y="321" width="150" height="159"/>
+	<SubTexture name="disc loop0005" x="662" y="481" width="150" height="159"/>
+	<SubTexture name="disc loop0006" x="511" y="539" width="150" height="159"/>
+	<SubTexture name="disc loop0007" x="347" y="568" width="150" height="159"/>
+	<SubTexture name="disc loop0008" x="813" y="481" width="150" height="159"/>
+	<SubTexture name="disc loop0009" x="662" y="641" width="150" height="159"/>
+	<SubTexture name="disc loop0010" x="498" y="699" width="150" height="159"/>
+	<SubTexture name="disc loop0011" x="347" y="728" width="150" height="159"/>
+	<SubTexture name="disc loop0012" x="498" y="859" width="150" height="159"/>
+	<SubTexture name="disc loop0013" x="649" y="801" width="150" height="159"/>
+	<SubTexture name="disc loop0014" x="800" y="801" width="150" height="159"/>
+	<SubTexture name="disc loop0015" x="813" y="641" width="150" height="159"/>
+	<SubTexture name="disk spin0000" x="180" y="1" width="169" height="188" frameX="-4" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0001" x="180" y="190" width="169" height="188" frameX="-4" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0002" x="1" y="1" width="178" height="188"/>
+	<SubTexture name="disk spin0003" x="1" y="190" width="178" height="188"/>
+	<SubTexture name="disk spin0004" x="1" y="379" width="174" height="188" frameX="-2" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0005" x="1" y="568" width="174" height="188" frameX="-2" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0006" x="1" y="757" width="172" height="188" frameX="-3" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0007" x="174" y="757" width="172" height="188" frameX="-3" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0008" x="350" y="190" width="159" height="188" frameX="-9" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0009" x="510" y="190" width="159" height="188" frameX="-9" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0010" x="953" y="1" width="93" height="187" frameX="-42" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0011" x="972" y="189" width="93" height="187" frameX="-42" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0012" x="1053" y="669" width="18" height="188" frameX="-79" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0013" x="1053" y="669" width="18" height="188" frameX="-79" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0014" x="951" y="801" width="101" height="187" frameX="-37" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0015" x="964" y="481" width="101" height="187" frameX="-37" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0016" x="514" y="1" width="143" height="187" frameX="-16" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0017" x="658" y="1" width="143" height="187" frameX="-16" frameY="-1" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0018" x="347" y="379" width="163" height="188" frameX="-6" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0019" x="350" y="1" width="163" height="188" frameX="-6" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0020" x="176" y="379" width="170" height="188" frameX="-3" frameY="0" frameWidth="178" frameHeight="188"/>
+	<SubTexture name="disk spin0021" x="176" y="568" width="170" height="188" frameX="-3" frameY="0" frameWidth="178" frameHeight="188"/>
+</TextureAtlas>

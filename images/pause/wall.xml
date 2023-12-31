@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="wall.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="wall30000" x="0" y="0" width="1295" height="1329"/>
+	<SubTexture name="wall30001" x="0" y="0" width="1295" height="1329"/>
+	<SubTexture name="wall30002" x="0" y="0" width="1295" height="1329"/>
+	<SubTexture name="wall30003" x="0" y="1332" width="1295" height="1329"/>
+	<SubTexture name="wall30004" x="0" y="1332" width="1295" height="1329"/>
+	<SubTexture name="wall30005" x="0" y="1332" width="1295" height="1329"/>
+</TextureAtlas>

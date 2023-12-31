@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" sprite="skarlet_soda" icon="skarlet" y="80" scale="1" isPlayer="false" flipX="false">
+	<anim x="-5" loop="false" y="0" fps="24" anim="drink" name="drink"/>
+
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+
+	<anim x="-59" loop="false" y="16" fps="24" anim="up0" name="singUP"/>
+
+	<anim x="32" loop="false" y="-23" fps="24" anim="left0" name="singLEFT"/>
+
+	<anim x="-64" loop="false" y="-8" fps="24" anim="right0" name="singRIGHT"/>
+
+	<anim x="-23" loop="false" y="-7" fps="24" anim="down0" name="singDOWN"/>
+</character>

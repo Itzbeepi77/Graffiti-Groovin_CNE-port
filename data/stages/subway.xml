@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/metro/images/" zoom="0.85">
+	<sprite x="101.5" y="-6.5" sprite="background" scale="1.05" name="bg"/>
+
+	<sprite x="783.25" y="594" sprite="boppers_left" type="none" name="bopsL" scroll="0.9">
+		<anim loop="false" fps="24" anim="bop" name="idle"/>
+	</sprite>
+
+	<sprite x="1376.5" y="536.5" sprite="boppers_right" type="none" name="bopsR" scroll="0.9">
+		<anim loop="false" fps="24" anim="bop" name="idle"/>
+	</sprite>
+
+	<sprite sprite="floorground" name="fg"/>
+	<gf x="935.5" y="530" alpha="0.001"/>
+	<dad x="564.25" y="471.5" camxoffset="150"/>
+	<bf x="1508.25" y="460.5" camxoffset="-150"/>
+	<combo x="1069" y="811"/>
+
+	<sprite x="17.625" y="1059" sprite="foreground boppers" type="none" scroll="0.9" name="fgops">
+		<anim loop="false" fps="24" anim="foreground bop" name="idle"/>
+	</sprite>
+</stage>

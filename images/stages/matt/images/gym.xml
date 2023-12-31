@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gym.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bg bump0000" x="0" y="0" width="2461" height="886"/>
+	<SubTexture name="bg bump0001" x="2461" y="0" width="2461" height="886"/>
+	<SubTexture name="bg bump0002" x="4922" y="0" width="2461" height="886"/>
+	<SubTexture name="bg bump0003" x="0" y="886" width="2461" height="886"/>
+	<SubTexture name="bg bump0004" x="2461" y="886" width="2461" height="886"/>
+	<SubTexture name="bg bump0005" x="4922" y="886" width="2461" height="886"/>
+	<SubTexture name="bg bump0006" x="0" y="1772" width="2461" height="886"/>
+	<SubTexture name="bg bump0007" x="2461" y="1772" width="2461" height="886"/>
+	<SubTexture name="bg bump0008" x="4922" y="1772" width="2461" height="886"/>
+	<SubTexture name="bg bump0009" x="0" y="2658" width="2461" height="886"/>
+	<SubTexture name="bg bump0010" x="2461" y="2658" width="2461" height="886"/>
+	<SubTexture name="bg bump0011" x="4922" y="2658" width="2461" height="886"/>
+	<SubTexture name="bg bump0012" x="0" y="3544" width="2461" height="886"/>
+	<SubTexture name="bg bump0013" x="2461" y="3544" width="2461" height="886"/>
+	<SubTexture name="bg bump0014" x="4922" y="3544" width="2461" height="886"/>
+	<SubTexture name="bg bump0015" x="0" y="4430" width="2461" height="886"/>
+</TextureAtlas>

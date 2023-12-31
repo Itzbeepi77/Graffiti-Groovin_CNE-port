@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SKARLET PUNCH.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="skarlet ult0000" x="6914" y="3252" width="390" height="282" frameX="-412" frameY="-281" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0001" x="6914" y="2498" width="1041" height="752" frameX="-76" frameY="-51" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0002" x="2" y="2" width="1189" height="858"/>
+	<SubTexture name="skarlet ult0003" x="2" y="2" width="1189" height="858"/>
+	<SubTexture name="skarlet ult0004" x="1193" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0005" x="1193" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0006" x="2345" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0007" x="2345" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0008" x="3497" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0009" x="3497" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0010" x="4649" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0011" x="5801" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0012" x="6953" y="2" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0013" x="1193" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0014" x="2" y="862" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0015" x="2345" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0016" x="3497" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0017" x="4649" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0018" x="5801" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0019" x="6953" y="834" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0020" x="1154" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0021" x="2" y="1694" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0022" x="2306" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0023" x="3458" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0024" x="4610" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0025" x="5762" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0026" x="6914" y="1666" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0027" x="1154" y="2498" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0028" x="2" y="2526" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0029" x="2306" y="2498" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0030" x="3458" y="2498" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0031" x="4610" y="2498" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+	<SubTexture name="skarlet ult0032" x="5762" y="2498" width="1150" height="830" frameX="-20" frameY="-13" frameWidth="1189" frameHeight="858"/>
+</TextureAtlas>

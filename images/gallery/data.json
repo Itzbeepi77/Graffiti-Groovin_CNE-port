@@ -1,0 +1,358 @@
+{
+  "bgSettings": {
+    "image": "prettyCheckers",
+    "antialiasing": false,
+    "color": "0x9800FF",
+    "velocity": {
+      "x": -0.5,
+      "y": 0.25
+    },
+    "scale": {
+      "width": 5,
+      "height": 5
+    }
+  },
+  "textSettings": {
+	"titleFont": "vcr.ttf",
+	"titleColor": "0xFFFFFF",
+	"titleBorderColor": "0x000000",
+	"titleSize": 30,
+	"titleBorderSize": 3,
+	"descFont": "vcr.ttf",
+	"descColor": "0xFFFFFF",
+	"descBorderColor": "0x000000",
+	"descSize": 20,
+	"descBorderSize": 2
+  },
+  "images": [
+    {
+      "filename": "basket",
+      "title": "development of basket stage",
+      "description": "Quite self-explanatory",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "subway",
+      "title": "development of subway stage",
+      "description": "Quite self-explanatory",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "BF",
+      "title": "development of bf character also design",
+      "description": "picture design 1",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "BF2",
+      "title": "development of bf character also design",
+      "description": "picture design 2",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "BF3",
+      "title": "development of bf character also design",
+      "description": "picture design 3",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "BF4",
+      "title": "development of bf character also design",
+      "description": "picture design 4",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "BF5",
+      "title": "development of bf character also design",
+      "description": "picture design 5",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0001",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0002",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0003",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0004",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0005",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0006",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0007",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0008",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0009",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0010",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0011",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0012",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0013",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "skarlet0014",
+      "title": "development of skarlet character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0001",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0002",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0003",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0004",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0005",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0006",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0007",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0008",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "mora0009",
+      "title": "development of mora character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "henchmen0001",
+      "title": "development of henchmen character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "henchmen0002",
+      "title": "development of henchmen character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "henchmen0003",
+      "title": "development of henchmen character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "WHITTY0001",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "WHITTY0002",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "WHITTY0003",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "WHITTY0004",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "HEX0001",
+      "title": "development of hex character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "HEX0002",
+      "title": "development of hex character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "HEX0003",
+      "title": "development of hex character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0001",
+      "title": "development of nikku character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0002",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0003",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0004",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0005",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "nikku0006",
+      "title": "development of whitty character also design",
+      "description": "Idk add an original desc here",
+      "antialiasing": true,
+      "resize": true
+    },
+    {
+      "filename": "GF",
+      "title": "gf image if she's presented on the mod lmao",
+      "description": "smash ._.",
+      "antialiasing": true,
+      "resize": true
+    }
+  ]
+}

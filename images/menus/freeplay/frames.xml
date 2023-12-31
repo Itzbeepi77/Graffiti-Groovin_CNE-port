@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="frames.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="frame unselected0000" x="0" y="0" width="686" height="147"/>
+	<SubTexture name="frame white0000" x="0" y="150" width="686" height="147"/>
+</TextureAtlas>

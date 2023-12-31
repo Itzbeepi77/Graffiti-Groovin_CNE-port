@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="restart.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="restart0000" x="840" y="1215" width="734" height="282"/>
+	<SubTexture name="restart white0000" x="0" y="849" width="837" height="366" frameX="0" frameY="-43" frameWidth="837" frameHeight="444"/>
+	<SubTexture name="restart white0001" x="840" y="833" width="837" height="379" frameX="0" frameY="-31" frameWidth="837" frameHeight="444"/>
+	<SubTexture name="restart white0002" x="840" y="427" width="837" height="403" frameX="0" frameY="-19" frameWidth="837" frameHeight="444"/>
+	<SubTexture name="restart white0003" x="840" y="0" width="837" height="424" frameX="0" frameY="-9" frameWidth="837" frameHeight="444"/>
+	<SubTexture name="restart white0004" x="0" y="0" width="837" height="444"/>
+	<SubTexture name="restart white0005" x="0" y="447" width="837" height="399" frameX="0" frameY="-22" frameWidth="837" frameHeight="444"/>
+</TextureAtlas>

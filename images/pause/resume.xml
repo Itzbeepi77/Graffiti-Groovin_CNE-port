@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="resume.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="resume0000" x="0" y="0" width="627" height="514"/>
+	<SubTexture name="resume white0000" x="627" y="0" width="712" height="599" frameX="0" frameY="-15" frameWidth="712" frameHeight="614"/>
+	<SubTexture name="resume white0001" x="1339" y="0" width="711" height="599" frameX="0" frameY="-15" frameWidth="712" frameHeight="614"/>
+	<SubTexture name="resume white0002" x="2050" y="0" width="711" height="599" frameX="0" frameY="-15" frameWidth="712" frameHeight="614"/>
+	<SubTexture name="resume white0003" x="2761" y="0" width="711" height="602" frameX="0" frameY="-12" frameWidth="712" frameHeight="614"/>
+	<SubTexture name="resume white0004" x="0" y="602" width="711" height="614" frameX="0" frameY="0" frameWidth="712" frameHeight="614"/>
+	<SubTexture name="resume white0005" x="711" y="602" width="711" height="599" frameX="0" frameY="-15" frameWidth="712" frameHeight="614"/>
+</TextureAtlas>

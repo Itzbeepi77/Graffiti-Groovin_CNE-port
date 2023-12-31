@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/philly/images/" name="philly" zoom="0.8">
+	<sprite x="-400" y="-400" sprite="sky" scale="1.15" name="bg" scrollx="0.2" scrolly="0.2"/>
+	<sprite x="-400" y="700" sprite="train" scale="1.25" name="train"/>
+	<gf alpha="0.001"/>
+	<dad x="-100" y="90" camxoffset="150"/>
+	<bf x="1100" camxoffset="-300"/>
+	<combo/>
+</stage>

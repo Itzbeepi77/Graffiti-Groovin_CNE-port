@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="truck_bg.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="truck2 loop0000" x="0" y="0" width="1037" height="435"/>
+	<SubTexture name="truck2 loop0001" x="0" y="435" width="1037" height="435"/>
+	<SubTexture name="truck2 loop0002" x="0" y="870" width="1037" height="434" frameX="0" frameY="-1" frameWidth="1037" frameHeight="435"/>
+	<SubTexture name="truck2 loop0003" x="0" y="1304" width="1037" height="434" frameX="0" frameY="-1" frameWidth="1037" frameHeight="435"/>
+</TextureAtlas>

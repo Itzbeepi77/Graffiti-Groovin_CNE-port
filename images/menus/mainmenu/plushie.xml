@@ -1,0 +1,25 @@
+<TextureAtlas width="7233" imagePath="plushie.png" height="244">
+	<SubTexture x="1" frameWidth="494" y="1" frameX="-26" name="plushie0000" frameHeight="203" frameY="-14" width="468" height="167"/>
+	<SubTexture x="472" frameWidth="630" y="1" frameX="-18" name="plushie press0000" frameHeight="291" frameY="-4" width="493" height="173"/>
+	<SubTexture x="4779" frameWidth="630" y="1" frameX="95" name="plushie press0001" frameHeight="291" frameY="23" width="606" height="239"/>
+	<SubTexture x="6620" frameWidth="630" y="1" frameX="101" name="plushie press0002" frameHeight="291" frameY="24" width="612" height="242"/>
+	<SubTexture x="6004" frameWidth="630" y="1" frameX="102" name="plushie press0003" frameHeight="291" frameY="23" width="613" height="241"/>
+	<SubTexture x="5388" frameWidth="630" y="1" frameX="102" name="plushie press0004" frameHeight="291" frameY="22" width="613" height="240"/>
+	<SubTexture x="1510" frameWidth="630" y="1" frameX="33" name="plushie press0005" frameHeight="291" frameY="-7" width="544" height="193"/>
+	<SubTexture x="3155" frameWidth="585" y="1" frameX="33" name="plushie press loop0000" frameHeight="242" frameY="-2" width="544" height="199"/>
+	<SubTexture x="3155" frameWidth="585" y="1" frameX="33" name="plushie press loop0001" frameHeight="242" frameY="-2" width="544" height="199"/>
+	<SubTexture x="3155" frameWidth="585" y="1" frameX="33" name="plushie press loop0002" frameHeight="242" frameY="-2" width="544" height="199"/>
+	<SubTexture x="968" frameWidth="585" y="1" frameX="28" name="plushie press loop0003" frameHeight="242" frameY="-5" width="539" height="186"/>
+	<SubTexture x="968" frameWidth="585" y="1" frameX="28" name="plushie press loop0004" frameHeight="242" frameY="-5" width="539" height="186"/>
+	<SubTexture x="2057" frameWidth="585" y="1" frameX="36" name="plushie press loop0005" frameHeight="242" frameY="0" width="547" height="193"/>
+	<SubTexture x="2057" frameWidth="585" y="1" frameX="36" name="plushie press loop0006" frameHeight="242" frameY="0" width="547" height="193"/>
+	<SubTexture x="4239" frameWidth="585" y="1" frameX="26" name="plushie press loop0007" frameHeight="242" frameY="-2" width="537" height="201"/>
+	<SubTexture x="4239" frameWidth="585" y="1" frameX="26" name="plushie press loop0008" frameHeight="242" frameY="-2" width="537" height="201"/>
+	<SubTexture x="3702" frameWidth="585" y="1" frameX="23" name="plushie press loop0009" frameHeight="242" frameY="-1" width="534" height="199"/>
+	<SubTexture x="3702" frameWidth="585" y="1" frameX="23" name="plushie press loop0010" frameHeight="242" frameY="-1" width="534" height="199"/>
+	<SubTexture x="3702" frameWidth="585" y="1" frameX="23" name="plushie press loop0011" frameHeight="242" frameY="-1" width="534" height="199"/>
+	<SubTexture x="2607" frameWidth="585" y="1" frameX="34" name="plushie press loop0012" frameHeight="242" frameY="-8" width="545" height="193"/>
+	<SubTexture x="2607" frameWidth="585" y="1" frameX="34" name="plushie press loop0013" frameHeight="242" frameY="-8" width="545" height="193"/>
+	<SubTexture x="2607" frameWidth="585" y="1" frameX="34" name="plushie press loop0014" frameHeight="242" frameY="-8" width="545" height="193"/>
+	<SubTexture x="2607" frameWidth="585" y="1" frameX="34" name="plushie press loop0015" frameHeight="242" frameY="-8" width="545" height="193"/>
+</TextureAtlas>

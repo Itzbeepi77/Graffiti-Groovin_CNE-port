@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dropbg.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tunnel loop0000" x="1" y="1" width="959" height="540"/>
+	<SubTexture name="tunnel loop0001" x="961" y="1" width="959" height="540"/>
+	<SubTexture name="tunnel loop0002" x="1" y="542" width="959" height="540"/>
+	<SubTexture name="tunnel loop0003" x="1" y="1083" width="959" height="540"/>
+	<SubTexture name="tunnel loop0004" x="961" y="542" width="959" height="540"/>
+	<SubTexture name="tunnel loop0005" x="961" y="1083" width="959" height="540"/>
+</TextureAtlas>

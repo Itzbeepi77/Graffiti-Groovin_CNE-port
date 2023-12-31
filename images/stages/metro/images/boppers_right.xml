@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="boppers_right.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bop Cópia0000" x="1" y="1163" width="374" height="284" frameX="0" frameY="-9" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0001" x="1" y="1163" width="374" height="284" frameX="0" frameY="-9" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0002" x="1" y="290" width="376" height="286" frameX="0" frameY="-7" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0003" x="1" y="290" width="376" height="286" frameX="0" frameY="-7" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0004" x="1" y="1" width="376" height="288" frameX="-2" frameY="-5" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0005" x="1" y="1" width="376" height="288" frameX="-2" frameY="-5" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0006" x="1" y="871" width="368" height="291" frameX="-3" frameY="-2" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0007" x="1" y="871" width="368" height="291" frameX="-3" frameY="-2" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0008" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0009" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0010" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0011" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0012" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+	<SubTexture name="bop Cópia0013" x="1" y="577" width="367" height="293" frameX="-3" frameY="0" frameWidth="378" frameHeight="293"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 180,
+	"difficulties": [
+		"NORMAL",
+		"ERECT"
+	],
+	"needsVoices": true,
+	"parsedColor": -7376387,
+	"displayName": "streetstyle",
+	"icon": "skarlet",
+	"name": "streetstyle",
+	"color": "#8F71FD"
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hpBar.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="front0000" x="1" y="1" width="901" height="184"/>
+	<SubTexture name="mask0000" x="1" y="188" width="794" height="60"/>
+</TextureAtlas>

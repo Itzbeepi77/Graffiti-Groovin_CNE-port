@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bg0000" x="4295" y="902" width="1425" height="895"/>
+	<SubTexture name="bg_lightning 0000" x="5722" y="902" width="1425" height="895" frameX="0" frameY="0" frameWidth="1429" frameHeight="898"/>
+	<SubTexture name="bg_lightning 0001" x="5722" y="902" width="1425" height="895" frameX="0" frameY="0" frameWidth="1429" frameHeight="898"/>
+	<SubTexture name="bg_lightning 0002" x="4295" y="1799" width="1425" height="895" frameX="0" frameY="0" frameWidth="1429" frameHeight="898"/>
+	<SubTexture name="bg_lightning 0003" x="2" y="2" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0004" x="1433" y="2" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0005" x="2864" y="2" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0006" x="4295" y="2" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0007" x="5726" y="2" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0008" x="2" y="902" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0009" x="1433" y="902" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0010" x="2864" y="902" width="1429" height="898"/>
+	<SubTexture name="bg_lightning 0011" x="5722" y="1799" width="1425" height="895" frameX="0" frameY="0" frameWidth="1429" frameHeight="898"/>
+</TextureAtlas>

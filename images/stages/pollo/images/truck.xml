@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="truck.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="truck loop0000" x="0" y="0" width="1578" height="791"/>
+	<SubTexture name="truck loop0001" x="0" y="791" width="1578" height="791"/>
+	<SubTexture name="truck loop0002" x="0" y="0" width="1578" height="791"/>
+	<SubTexture name="truck loop0003" x="0" y="791" width="1578" height="791"/>
+	<SubTexture name="truck loop0004" x="0" y="0" width="1578" height="791"/>
+	<SubTexture name="truck loop0005" x="0" y="791" width="1578" height="791"/>
+	<SubTexture name="truck loop0006" x="0" y="0" width="1578" height="791"/>
+	<SubTexture name="truck loop0007" x="0" y="791" width="1578" height="791"/>
+	<SubTexture name="truck loop0008" x="0" y="0" width="1578" height="791"/>
+	<SubTexture name="truck loop0009" x="0" y="791" width="1578" height="791"/>
+	<SubTexture name="truck loop0010" x="0" y="0" width="1578" height="791"/>
+</TextureAtlas>

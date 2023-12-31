@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skarlet-sinister-gameover.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="game over0000" x="0" y="0" width="350" height="545" frameX="-202" frameY="0" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0001" x="0" y="0" width="350" height="545" frameX="-202" frameY="0" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0002" x="350" y="0" width="356" height="537" frameX="-200" frameY="-13" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0003" x="350" y="0" width="356" height="537" frameX="-200" frameY="-13" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0004" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0005" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0006" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0007" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0008" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0009" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0010" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0011" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0012" x="706" y="0" width="357" height="536" frameX="-199" frameY="-15" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0013" x="1063" y="0" width="351" height="536" frameX="-202" frameY="-16" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0014" x="1063" y="0" width="351" height="536" frameX="-202" frameY="-16" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0015" x="1414" y="0" width="342" height="544" frameX="-199" frameY="-17" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0016" x="1414" y="0" width="342" height="544" frameX="-199" frameY="-17" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0017" x="0" y="545" width="310" height="567" frameX="-179" frameY="-67" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0018" x="0" y="545" width="310" height="567" frameX="-179" frameY="-67" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0019" x="310" y="545" width="569" height="339" frameX="0" frameY="-390" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0020" x="310" y="545" width="569" height="339" frameX="0" frameY="-390" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0021" x="879" y="545" width="549" height="322" frameX="-11" frameY="-395" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0022" x="879" y="545" width="549" height="322" frameX="-11" frameY="-395" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0023" x="1428" y="545" width="545" height="330" frameX="-13" frameY="-388" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0024" x="1428" y="545" width="545" height="330" frameX="-13" frameY="-388" frameWidth="569" frameHeight="729"/>
+	<SubTexture name="game over0025" x="0" y="1112" width="545" height="331" frameX="-13" frameY="-387" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0000" x="0" y="1112" width="545" height="331" frameX="-7" frameY="-151" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0001" x="545" y="1112" width="546" height="326" frameX="-6" frameY="-149" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0002" x="545" y="1112" width="546" height="326" frameX="-6" frameY="-149" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0003" x="1091" y="1112" width="544" height="446" frameX="-7" frameY="-16" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0004" x="1091" y="1112" width="544" height="446" frameX="-7" frameY="-16" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0005" x="0" y="1558" width="544" height="463" frameX="-7" frameY="0" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0006" x="0" y="1558" width="544" height="463" frameX="-7" frameY="0" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0007" x="544" y="1558" width="547" height="461" frameX="-5" frameY="-1" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0008" x="544" y="1558" width="547" height="461" frameX="-5" frameY="-1" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0009" x="1091" y="1558" width="557" height="432" frameX="0" frameY="-31" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0010" x="1091" y="1558" width="557" height="432" frameX="0" frameY="-31" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0011" x="0" y="2021" width="551" height="438" frameX="-3" frameY="-25" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0012" x="0" y="2021" width="551" height="438" frameX="-3" frameY="-25" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0013" x="551" y="2021" width="551" height="438" frameX="-3" frameY="-25" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0014" x="551" y="2021" width="551" height="438" frameX="-3" frameY="-25" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over confirm0015" x="1102" y="2021" width="551" height="438" frameX="-3" frameY="-25" frameWidth="557" frameHeight="482"/>
+	<SubTexture name="game over loop0000" x="0" y="2459" width="545" height="331"/>
+	<SubTexture name="game over loop0001" x="0" y="2459" width="545" height="331"/>
+</TextureAtlas>

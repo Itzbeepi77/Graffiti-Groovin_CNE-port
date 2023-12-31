@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SLASH.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SLASH0000" x="0" y="0" width="2675" height="1413"/>
+	<SubTexture name="SLASH0001" x="0" y="1413" width="1588" height="349" frameX="-511" frameY="-532" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0002" x="0" y="1762" width="1048" height="242" frameX="-770" frameY="-591" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0003" x="2675" y="721" width="1106" height="307" frameX="-762" frameY="-561" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0004" x="1588" y="1590" width="1142" height="277" frameX="-730" frameY="-569" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0005" x="2675" y="422" width="1147" height="299" frameX="-732" frameY="-559" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0006" x="2675" y="1313" width="1151" height="277" frameX="-705" frameY="-572" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0007" x="2730" y="1590" width="1166" height="269" frameX="-710" frameY="-578" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0008" x="2675" y="1028" width="1176" height="285" frameX="-726" frameY="-571" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0009" x="1588" y="1590" width="1142" height="277" frameX="-730" frameY="-569" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0010" x="2675" y="422" width="1147" height="299" frameX="-732" frameY="-559" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0011" x="2675" y="1313" width="1151" height="277" frameX="-705" frameY="-572" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0012" x="2730" y="1590" width="1166" height="269" frameX="-710" frameY="-578" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0013" x="2675" y="1028" width="1176" height="285" frameX="-726" frameY="-571" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0014" x="1588" y="1590" width="1142" height="277" frameX="-730" frameY="-569" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0015" x="2675" y="422" width="1147" height="299" frameX="-732" frameY="-559" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0016" x="2675" y="1313" width="1151" height="277" frameX="-705" frameY="-572" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0017" x="2730" y="1590" width="1166" height="269" frameX="-710" frameY="-578" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0018" x="2675" y="1028" width="1176" height="285" frameX="-726" frameY="-571" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0019" x="1588" y="1590" width="1142" height="277" frameX="-730" frameY="-569" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0020" x="2675" y="422" width="1147" height="299" frameX="-732" frameY="-559" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0021" x="2675" y="1313" width="1151" height="277" frameX="-705" frameY="-572" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0022" x="2730" y="1590" width="1166" height="269" frameX="-710" frameY="-578" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0023" x="2675" y="1028" width="1176" height="285" frameX="-726" frameY="-571" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0024" x="1588" y="1590" width="1142" height="277" frameX="-730" frameY="-569" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0025" x="2675" y="422" width="1147" height="299" frameX="-732" frameY="-559" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0026" x="2675" y="1313" width="1151" height="277" frameX="-705" frameY="-572" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0027" x="2730" y="1590" width="1166" height="269" frameX="-710" frameY="-578" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0028" x="2675" y="1028" width="1176" height="285" frameX="-726" frameY="-571" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0029" x="2675" y="0" width="950" height="422" frameX="-826" frameY="-498" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0030" x="2730" y="1859" width="1196" height="221" frameX="-708" frameY="-597" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0031" x="3822" y="0" width="32" height="885" frameX="-1286" frameY="-282" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0032" x="1048" y="1867" width="1203" height="19" frameX="-690" frameY="-695" frameWidth="2675" frameHeight="1413"/>
+	<SubTexture name="SLASH0033" x="0" y="0" width="1" height="1" frameX="-344" frameY="-132" frameWidth="2675" frameHeight="1413"/>
+</TextureAtlas>
