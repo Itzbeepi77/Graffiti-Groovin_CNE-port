@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/junkyard/images/" zoom="0.8">
+	<sprite x="-7" name="background" sprite="background" y="-337.75"/>
+	<sprite x="60.5" name="city" sprite="city" y="364.25"/>
+	<sprite x="-37" name="palm" sprite="palm" y="36.25"/>
+	<sprite x="-89.5" name="backstage" sprite="backstage" y="305.25"/>
+	<sprite x="-9.5" name="floor" sprite="floor" y="591.25"/>
+	<sprite x="1193" name="bas" sprite="bas" y="625.75"/>
+	<gf x="812" y="355.25" scroll="1"/>
+	<dad x="620.75" y="507.75"/>
+	<bf x="1539.25" y="530.75"/>
+	<combo x="1334.5" y="650"/>
+	<sprite x="160.5" name="overlay" sprite="overlay" y="-100.25"/>
+</stage>
