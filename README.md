@@ -10,10 +10,10 @@ shoutout to reichi and the teams
 - uhh Idk.
 
 # things that already included (unreleased and released)
-released.
+released:
 - skarlet songs (story songs).
 
-unreleased.
+unreleased:
 - shaders (kind of broken, also it's unused for now).
 - mora songs (story songs, still working).
 - all of the animated icons is now working.
