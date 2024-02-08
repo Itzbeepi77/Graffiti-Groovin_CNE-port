@@ -1,28 +1,28 @@
 # Graffiti Groovin' CNE port
-things that will included:
-mechanic dodging in freakpunk;
-fixing and adding stuff that are missing/not added for now;
-streetstyle mid cutscenes aswell for freakpunk;
-train moving in subway stage;
-more custom states;
-uhh Idk;
+things that will included:\n
+mechanic dodging in freakpunk;\n
+fixing and adding stuff that are missing/not added for now;\n
+streetstyle mid cutscenes aswell for freakpunk;\n
+train moving in subway stage;\n
+more custom states;\n
+uhh Idk;\n
 
-things that already included (unreleased and released):
-released:
-skarlet songs (story songs);
+things that already included (unreleased and released):\n
+released:\n
+skarlet songs (story songs);\n
 
-unreleased:
-shaders (kind of broken, also it's unused for now);
-mora songs (story songs, still working);
-all of the animated icons is now working;
-rushdown scenes (stll making mora bike part);
-streetstyle transitions;
-adding halloween and junkyard stage;
-fixing positions of the characters;
-note bounce thing;
-note skins for some songs;
-healthBar skins (will get custom color icons later);
-spooky kids animations;
-custom main menu;
-removing some broken lines on the scripts;
-and more;
+unreleased:\n
+shaders (kind of broken, also it's unused for now);\n
+mora songs (story songs, still working);\n
+all of the animated icons is now working;\n
+rushdown scenes (stll making mora bike part);\n
+streetstyle transitions;\n
+adding halloween and junkyard stage;\n
+fixing positions of the characters;\n
+note bounce thing;\n
+note skins for some songs;\n
+healthBar skins (will get custom color icons later);\n
+spooky kids animations;\n
+custom main menu;\n
+removing some broken lines on the scripts;\n
+and more;\n
