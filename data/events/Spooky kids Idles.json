@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "idle Shits",
+            "type": "StrumLine",
+            "defaultValue": 0
+        }
+    ]
+}

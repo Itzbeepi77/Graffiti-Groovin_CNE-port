@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bgvid20.png" width="4183" height="3875">
+	<SubTexture name="bgvid0001" x="1" y="1" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0002" x="1" y="324" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0003" x="644" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0004" x="1" y="647" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0005" x="644" y="644" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0006" x="967" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0007" x="644" y="967" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0008" x="1" y="970" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0009" x="1287" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0010" x="1290" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0011" x="644" y="1290" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0012" x="1" y="1293" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0013" x="1287" y="1287" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0014" x="1610" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0015" x="1613" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0016" x="1287" y="1610" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0017" x="644" y="1613" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0018" x="1" y="1616" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0019" x="1930" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0020" x="1933" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0021" x="1936" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0022" x="1287" y="1933" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0023" x="644" y="1936" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0024" x="1" y="1939" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0025" x="1930" y="1930" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0026" x="2253" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0027" x="2256" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0028" x="2259" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0029" x="1930" y="2253" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0030" x="1287" y="2256" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0031" x="644" y="2259" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0032" x="1" y="2262" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0033" x="2573" y="1930" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0034" x="2576" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0035" x="2579" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0036" x="2582" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0037" x="1930" y="2576" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0038" x="1287" y="2579" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0039" x="644" y="2582" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0040" x="1" y="2585" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0041" x="2573" y="2573" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0042" x="2896" y="1930" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0043" x="2899" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0044" x="2902" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0045" x="2905" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0046" x="2573" y="2896" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0047" x="1930" y="2899" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0048" x="1287" y="2902" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0049" x="644" y="2905" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0050" x="1" y="2908" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0051" x="3216" y="2573" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0052" x="3219" y="1930" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0053" x="3222" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0054" x="3225" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0055" x="3228" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0056" x="2573" y="3219" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0057" x="1930" y="3222" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0058" x="1287" y="3225" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0059" x="644" y="3228" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0060" x="1" y="3231" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0061" x="3216" y="3216" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0062" x="3539" y="2573" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0063" x="3542" y="1930" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0064" x="3545" y="1287" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0065" x="3548" y="644" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0066" x="3551" y="1" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0067" x="3216" y="3539" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0068" x="2573" y="3542" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0069" x="1930" y="3545" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0070" x="1287" y="3548" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0071" x="644" y="3551" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0072" x="1" y="3554" width="640" height="320" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0073" x="3859" y="3216" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+	<SubTexture name="bgvid0074" x="3862" y="2573" width="320" height="640" rotated="true" frameX="-0" frameY="-0" frameWidth="640" frameHeight="320"/>
+</TextureAtlas>

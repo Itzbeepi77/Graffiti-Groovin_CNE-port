@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="attention.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sign0000" x="0" y="0" width="998" height="608"/>
+	<SubTexture name="sign0001" x="1010" y="0" width="998" height="608"/>
+	<SubTexture name="sign0002" x="0" y="620" width="996" height="606" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0003" x="1008" y="620" width="996" height="606" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0004" x="0" y="1238" width="987" height="591" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0005" x="999" y="1238" width="987" height="595" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0006" x="0" y="1845" width="987" height="595" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0007" x="999" y="1845" width="987" height="595" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0008" x="0" y="2452" width="987" height="595" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+	<SubTexture name="sign0009" x="0" y="2452" width="987" height="595" frameX="0" frameY="0" frameWidth="998" frameHeight="608"/>
+</TextureAtlas>

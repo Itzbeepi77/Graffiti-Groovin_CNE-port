@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/fightuwu/images/" zoom="0.6">
+	<sprite x="-2078.1" scrolly="0.4" sprite="sky bg" y="-1245" scale="1.5" name="sky bg" scrollx="0.4"/>
+	<sprite x="-2350" scroll="0.9" sprite="floorr" y="-575" scale="2" name="floorr"/>
+	<sprite x="-1700" scroll="0.8" sprite="trucks" y="-270" scale="1.1" name="truck"/>
+	<gf x="-1250" scroll="1" y="-300"/>
+	<dad camxoffset="200" x="-1475" y="-400"/>
+	<bf camxoffset="-200" x="-900" y="-350"/>
+	<combo/>
+</stage>

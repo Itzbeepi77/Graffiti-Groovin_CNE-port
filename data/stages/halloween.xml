@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/halloween/images/halloween/" name="halloween" zoom="0.75">
+	<sprite x="-800" anim="idle" sprite="BG" y="100" scale="2" type="none" name="bg">
+		
+		
+		<anim type="loop" anim="bg0" name="idle"/>
+		
+		
+		<anim loop="false" anim="bg_lightning" name="lightning"/>
+		
+	
+	</sprite>
+	<gf x="550" y="150" scroll="1"/>
+	<dad camxoffset="180" x="-880" y="220"/>
+	<bf x="200" camyoffset="100" y="75"/>
+	<combo x="-250"/>
+</stage>

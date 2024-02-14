@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="plush_sign.png" width="989" height="4913">
+	<SubTexture name="plush lol instance 10000" x="1" y="1" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10001" x="1" y="547" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10002" x="1" y="1093" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10003" x="1" y="1639" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10004" x="1" y="2185" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10005" x="1" y="2731" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10006" x="1" y="3277" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10007" x="1" y="3823" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10008" x="1" y="4369" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+	<SubTexture name="plush lol instance 10009" x="1" y="4369" width="987" height="543" frameX="-0" frameY="-0" frameWidth="987" frameHeight="543"/>
+</TextureAtlas>

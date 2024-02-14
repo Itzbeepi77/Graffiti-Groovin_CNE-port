@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/pollo/images/" zoom="0.6">
+	<sprite scrolly="0.2" x="-371" y="-334" sprite="cielo" scale="1.1" scrollx="0.2" name="cielo"/>
+	<sprite x="-1415.5" y="244.5" sprite="road" name="road" scrollx="0.9" scrolly="0.9"/>
+	<sprite x="-1731.5" y="468.5" sprite="truck_bg" name="truck_bg"/>
+	<sprite x="-693.8" sprite="hench" y="282.8" updateHitbox="true" name="hench" type="none">
+		
+		<anim loop="false" fps="24" anim="idle" name="idle"/>
+		<anim loop="false" fps="24" anim="shoot" name="shoot"/>
+		<anim loop="false" fps="24" anim="death" name="death"/>
+	
+	</sprite>
+	<sprite x="1425" y="1018" sprite="truck light" alpha="0.5" scale="1.05" name="truck_light"/>
+	<sprite x="-861" y="686" sprite="car" name="car"/>
+	<sprite x="0" y="688" sprite="truck" name="truck"/>
+	<gf x="500" y="25" scroll="1"/>
+	<dad camxoffset="225" camyoffset="25"/>
+	<bf camxoffset="-225"/>
+	<combo/>
+</stage>

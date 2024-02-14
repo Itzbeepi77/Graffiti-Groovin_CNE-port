@@ -1,4 +1,8 @@
 soda-pop
 groovin
 streetstyle
+beat-it
+rushdown
+freakpunk
+sinister
 carrotbyte

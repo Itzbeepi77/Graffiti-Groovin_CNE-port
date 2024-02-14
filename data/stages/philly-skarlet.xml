@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/skarlet-philly/images/" zoom="0.8">
+	<sprite x="-400" y="-400" sprite="sky" scale="1.15" name="bg" scrollx="0.2" scrolly="0.2"/>
+	<sprite x="-400" y="700" sprite="train" scale="1.25" name="train"/>
+    
+	<sprite x="200" y="210" sprite="wall2" scale="5.0" name="wall" scroll="0.9"/>
+	<sprite x="-400" y="700" sprite="train2" scale="1.25" name="train2"/>
+
+	<gf alpha="0.001"/>
+
+	<sprite x="-600" y="-400" sprite="dropbg" name="dropBg" scale="2.2" scroll="0.1" alpha="0.001"/>
+
+	<dad x="-100" y="90" camxoffset="150"/>
+	<bf x="1100" camxoffset="-300"/>
+	<combo/>
+	<sprite x="3500" y="-320" sprite="wall" name="wallTrans" scroll="0"/>
+</stage>

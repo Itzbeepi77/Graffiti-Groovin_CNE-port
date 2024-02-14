@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/junkyard/images/" zoom="0.8">
-	<sprite x="-7" name="background" sprite="background" y="-337.75"/>
+<stage folder="stages/junkyard/images/" zoom="0.7">
+	<sprite x="-7" name="background" sprite="background" y="-337.75" scale="1.15"/>
 	<sprite x="60.5" name="city" sprite="city" y="364.25"/>
 	<sprite x="-37" name="palm" sprite="palm" y="36.25"/>
 	<sprite x="-89.5" name="backstage" sprite="backstage" y="305.25"/>

@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 165,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7376387,
+	"displayName": "beat-it",
+	"icon": "mora",
+	"name": "beat-it",
+	"color": "#8F71FD"
+}

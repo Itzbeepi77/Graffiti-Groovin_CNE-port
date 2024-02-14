@@ -1,7 +1,5 @@
 <!DOCTYPE codename-mod-credits>
 <!-- TEMPLATE FOR CUSTOM CREDITS!!! -->
-<menu name="credits of the port" desc="people that got uhh included is..">
-	<credit name="notbeep" desc="modified the animated icon codes and make the ports" size="130" url="https://www.youtube.com/channel/UCRAhU1SMt_Qz0ByM6ZM8GcA"/>
-	<credit name="brussy/slimeybrooke" desc="giving permision to use animated icon" size="130" url="https://x.com/slimeybrooke"/>
-	<credit name="Ne_Eo" desc="help with the main menu (THANKS NE_EO!!)" url="https://twitter.com/Ne_Eo_Twitch"/>
+<menu name="Mod Credits" desc="Modify mod credits here">
+	<credit name="Credit Example" desc="Click me to know more about me!" icon="credit icon example" size="130" url="https://youtu.be/fugtxz1znVw"/>
 </menu>

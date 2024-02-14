@@ -15,9 +15,9 @@ function makeShitInsane(object, xThing, timerRandom1, timerRandom2){
     });
 }
 
-function postCreate() {
-    bg.scrollFactor.set(0.2,0.2);
-    
+function create() {
+
+    // streetstyle
     farBuilds = new FlxBackdrop(Paths.image('stages/philly/images/far buildings'),FlxAxes.X , -30, 0);
     farBuilds.velocity.x -= 900;
     insert(members.indexOf(bg)+1, farBuilds);
@@ -27,25 +27,41 @@ function postCreate() {
     insert(members.indexOf(bg)+2, buildings);
     
     buildsDark = new FlxBackdrop(Paths.image('stages/philly/images/buildings darker'),FlxAxes.X , -10, 0);
-    buildsDark.velocity.x -= 6000;
+    buildsDark.velocity.x -= 3000;
     insert(members.indexOf(bg)+3, buildsDark);
     
     poles = new FlxBackdrop(Paths.image('stages/philly/images/poles'),FlxAxes.X , 0, 0);
-    poles.velocity.x -= 18900;
-    poles.y = 500;
+    poles.velocity.x -= 4000;
+    poles.y = 600;
     insert(members.indexOf(bg)+4, poles);
 
-	ad = new FunkinSprite(3500, 200).loadGraphic(Paths.image('stages/philly/images/ad_tricky'));
+	ad = new FunkinSprite(3500, 400).loadGraphic(Paths.image('stages/philly/images/ad_tricky'));
 	ad.antialiasing = true;
 	ad.updateHitbox();
     insert(members.indexOf(buildsDark)+1, ad);
     makeShitInsane(ad, -2500, 1, 1);
-}
-function beatHit(curBeat:Int) {}
+    
+    // streetstyle neon
+    lights = new FlxBackdrop(Paths.image('stages/philly/images/light'),FlxAxes.X , 0, 0);
+    lights.velocity.x -= 7500;
+    lights.y = 380;
+    lights.scrollFactor.set(0.9,0.9);
+    lights.scale.set(1.4,1.4);
+    insert(members.indexOf(poles)+1, lights);
 
-function boundTo(value:Float, min:Float, max:Float):Float {
-	var newValue:Float = value;
-	if(newValue < min) newValue = min;
-	else if(newValue > max) newValue = max;
-	return newValue;
+    overlay = new FlxBackdrop(Paths.image('stages/philly/images/walloverlay'),FlxAxes.X , 0, 0);
+    overlay.velocity.x -= 7500;
+    overlay.y = -320;
+    overlay.scrollFactor.set(0.9,0.9);
+    overlay.scale.set(4.0,4.0);
+    insert(members.indexOf(poles)+2, overlay);
+
+    dropBg.screenCenter();
 }
+function update(e){
+    if(overlay.x < -2728)
+    {
+        overlay.x += 2728;
+    }
+}
+function beatHit(curBeat) {}

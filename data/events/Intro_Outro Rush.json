@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Intro/Outro",
+            "type": "DropDown('Intro', 'Outro')",
+            "defaultValue": "Intro"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" y="350" isPlayer="false" isGf="false" icon="bf" sprite="boyfriend_morafight" scale="1.5">
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+</character>

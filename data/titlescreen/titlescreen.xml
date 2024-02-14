@@ -1,71 +1,41 @@
 <!DOCTYPE codename-titlestate >
 <titlestate>
 	<sprites folder="menus/titlescreen">
-		<sprite name="logo" sprite="logo" x="-150" y="-100" />
-		<sprite name="gf" sprite="gf" x="512" y="50">
-			<anim name="danceLeft" anim="gfDance" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
-			<anim name="danceRight" anim="gfDance" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29" />
-		</sprite>
+		<sprite name="sky" sprite="skyy" x="-430" y="-300" scale="1" />
+		<sprite name="bg" sprite="buildings_far" x="-410" y="-100" scale="1" />
+		<sprite name="bg_fg" sprite="buildings" x="-656" y="-100" scale="1" />
+		<sprite name="overlay" sprite="sunoverlay" x="400" y="0" scale="1" />
+		
+		<sprite name="bars" sprite="bars" x="-315" y="-180" scale="0.67" />
 
-		<titleEnter sprite="titleEnter" x="-150" y="-100" />
+		<sprite name="logo" sprite="logo" x="-600" y="-325" scale="0.4" />
 	</sprites>
 
-	<intro length="16">
-		<text beat="1">
-			<line text="ninjamuffin99" />
-			<line text="phantomArcade" />
-			<line text="kawaisprite" />
-			<line text="evilsk8er" />
-		</text>
-
-		<text beat="3">
-			<line text="ninjamuffin99" />
-			<line text="phantomArcade" />
-			<line text="kawaisprite" />
-			<line text="evilsk8er" />
-			<line text="presents" />
-		</text>
-
-		<text beat="4" /> <!-- clears the screen !-->
-
-		<text beat="5">
-			<line text="In association" />
-			<line text="with" />
-		</text>
-
-		<text beat="7">
-			<line text="In association" />
-			<line text="with" />
-			<line text="Newgrounds" />
+	<intro length="24">
+		<text beat="11">
 			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
 		</text>
 
-		<text beat="8" /> <!-- clears the screen !-->
+		<text beat="12" /> <!-- clears the screen !-->
 
-		<text beat="9">
+		<text beat="16">
 			<introtext line="1" />
 		</text>
 
-		<text beat="11">
+		<text beat="18">
 			<introtext line="1" />
 			<introtext line="2" />
 		</text>
 
-		<text beat="12"/>
+		<text beat="21" /> <!-- clears the screen !-->
 
-		<text beat="13">
-			<line text="Friday" />
+		<text beat="22">
+			<line text="Graffiti" />
 		</text>
 
-		<text beat="14">
-			<line text="Friday" />
-			<line text="Night" />
-		</text>
-
-		<text beat="15">
-			<line text="Friday" />
-			<line text="Night" />
-			<line text="Funkin'" />
+		<text beat="23">
+			<line text="Graffiti" />
+			<line text="Groovin'" />
 		</text>
 	</intro>
 </titlestate>

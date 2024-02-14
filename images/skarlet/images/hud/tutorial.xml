@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tutorial.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tuto loop0000" x="0" y="0" width="1228" height="609"/>
+	<SubTexture name="tuto loop0001" x="1238" y="0" width="1228" height="609"/>
+	<SubTexture name="tuto loop0002" x="2476" y="0" width="1226" height="607" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0003" x="0" y="619" width="1226" height="607" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0004" x="1236" y="619" width="1213" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0005" x="2459" y="619" width="1217" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0006" x="0" y="1236" width="1217" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0007" x="1227" y="1236" width="1217" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0008" x="2454" y="1236" width="1217" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+	<SubTexture name="tuto loop0009" x="0" y="1842" width="1217" height="596" frameX="0" frameY="0" frameWidth="1228" frameHeight="609"/>
+</TextureAtlas>

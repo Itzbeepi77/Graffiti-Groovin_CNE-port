@@ -1,0 +1,43 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="140" y="120" icon="skarlet" sprite="skarlet-fight-atlas" camy="400" flipX="true" isPlayer="true">
+	<anim loop="false" x="-5" anim="hurt" fps="24" y="11" name="hurt"/>
+
+	<anim loop="false" x="-2" anim="pre jump" fps="24" y="-192" name="pre-jump"/>
+
+	<anim loop="false" x="75" anim="jump" fps="24" y="41" name="jump"/>
+
+	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
+
+	
+	<anim loop="false" x="-15" anim="pre attack" fps="24" y="-146" name="pre-attack"/>
+
+	
+	<anim loop="false" x="-8" anim="attack" fps="24" y="-63" name="attack"/>
+
+	<anim loop="false" x="-49" anim="punch" fps="24" y="-101" name="punch"/>
+
+	<anim loop="false" x="2" anim="punchafter" fps="24" y="-10" name="punch-after"/>
+
+	
+	<anim loop="false" x="110" anim="skarlet final blow" fps="24" y="5" name="final-blow"/>
+
+	
+	<anim loop="false" x="-25" anim="hey" fps="24" y="30" name="hey"/>
+
+	<anim loop="false" x="-5" anim="up" fps="24" y="27" name="singUP"/>
+
+	<anim loop="false" x="66" anim="left" fps="24" y="-51" name="singLEFT"/>
+
+	<anim loop="false" x="-12" anim="right" fps="24" y="-6" indices="0,1,2,3,4,5,6" name="singRIGHT"/> <!-- use indices bcuz it kinda broken-->
+
+	<anim loop="false" x="14" anim="down" fps="24" y="-122" name="singDOWN"/>
+
+	
+	<anim loop="false" x="-4" anim="up alt" fps="24" y="26" name="singUP-alt"/>
+
+	<anim loop="false" x="67" anim="left alt" fps="24" y="-50" name="singLEFT-alt"/>
+
+	<anim loop="false" x="-12" anim="right alt" fps="24" y="-5" name="singRIGHT-alt"/>
+
+	<anim loop="false" x="13" anim="down alt" fps="24" y="-121" name="singDOWN-alt"/>
+</character>

@@ -5,9 +5,11 @@ import Xml;
 import haxe.Exception;
 
 class AnimatedIcon extends funkin.backend.FunkinSprite {
+	public var curSong:String = "";
 	public var curCharacter:String = 'bf';
 	public var danceInterval:Int = 1;
 	public var losing:Bool = false;
+	public var moveIcon:Bool = false;
 
 	public var healthBar:FlxBar = null;
 
@@ -17,8 +19,8 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 
 	public var sprTracker:FlxSprite = null;
 
-	public function new(char:String = 'bf', isDad:Bool = false, interval:Int = 1, health:FlxBar = null) {
-		flipX = isDad;
+	public function new(char:String = 'bf', player:Bool = true, interval:Int = 1, health:FlxBar = null) {
+		flipX = char == 'whitty' || char == 'mora' ? false: !player;
 		danceInterval = interval;
 		healthBar = health;
 
@@ -56,7 +58,7 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 		super.update(elapsed);
 
 		if (sprTracker != null)
-			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y - 30);
+			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y + 30);
 
 		if (healthBar != null) {
 			x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 1, 0)) - (flipX ? width + -50 : 50));

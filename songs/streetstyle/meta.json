@@ -5,13 +5,12 @@
 	"beatsPerMesure": 4,
 	"bpm": 180,
 	"difficulties": [
-		"NORMAL",
-		"ERECT"
+		"NORMAL"
 	],
 	"needsVoices": true,
-	"parsedColor": -7376387,
+	"parsedColor": -7572995,
 	"displayName": "streetstyle",
 	"icon": "skarlet",
 	"name": "streetstyle",
-	"color": "#8F71FD"
+	"color": "#8C71FD"
 }

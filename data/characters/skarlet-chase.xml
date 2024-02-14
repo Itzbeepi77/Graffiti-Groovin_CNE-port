@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="-280" y="240" icon="skarlet" camy="100" scale="1" flipX="false" isPlayer="false">
+	<anim loop="false" x="-2" anim="idle" fps="24" y="0" name="idle"/>
+
+	<anim loop="false" x="29" anim="aim0" fps="24" y="-1" name="aim"/>
+
+	<anim loop="false" x="21" anim="aim loop" fps="24" y="-20" name="aimL"/>
+
+	<anim loop="false" x="2" anim="land" fps="24" y="674" name="land"/>
+
+	<anim loop="false" x="23" anim="backtoidle" fps="24" y="1" name="idle-back"/>
+
+	
+	<anim loop="false" x="42" anim="shooting" fps="24" y="-10" name="shoot"/>
+</character>

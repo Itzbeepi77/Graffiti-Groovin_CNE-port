@@ -1,0 +1,19 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 182,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7376387,
+	"displayName": "freakpunk",
+	"icon": "mora",
+	"name": "freakpunk",
+	"color": "#8F71FD",
+	"customValues": {
+		"Composer": "Kalpy"
+	}
+}

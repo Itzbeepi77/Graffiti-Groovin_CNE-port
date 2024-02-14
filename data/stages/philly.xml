@@ -1,8 +1,14 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/philly/images/" name="philly" zoom="0.8">
-	<sprite x="-400" y="-400" sprite="sky" scale="1.15" name="bg" scrollx="0.2" scrolly="0.2"/>
+	<sprite x="-400" y="-400" sprite="sky" scale="1.15" name="bg" scroll="0.2"/>
 	<sprite x="-400" y="700" sprite="train" scale="1.25" name="train"/>
+	<sprite x="-400" y="700" sprite="train2" scale="1.25" name="train2"/>
+
 	<gf alpha="0.001"/>
+
+	<sprite x="-600" y="-400" sprite="dropbg" name="dropBg" scale="2.2" scroll="0.1" alpha="0.001"/>
+	<sprite x="-325" y="-320" sprite="wall2" scale="5" name="wall" scroll="0.9"/>
+
 	<dad x="-100" y="90" camxoffset="150"/>
 	<bf x="1100" camxoffset="-300"/>
 	<combo/>

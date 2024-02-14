@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-character>
+<character x="-350" isGF="false" icon="mora" y="225" camx="-47" camy="28" isPlayer="false" flipX="true" sprite="nycto">
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle0" name="idle"/>
+	
+	<anim x="101" loop="false" y="24" fps="24" anim="ascending" name="ascending"/>
+
+	
+	<anim x="-6" loop="false" y="-206" fps="24" anim="one" name="idle-one"/>
+
+	
+	<anim x="83" loop="false" y="-181" fps="24" anim="two" name="idle-two"/>
+
+	
+	<anim x="239" loop="false" y="185" fps="24" anim="three" name="idle-three"/>
+
+	<anim x="42" loop="false" y="261" fps="24" anim="up" name="singUP"/>
+
+	<anim x="122" loop="false" y="91" fps="24" anim="left" name="singRIGHT"/>
+
+	<anim x="169" loop="false" y="136" fps="24" anim="right" name="singLEFT"/>
+
+	<anim x="192" loop="false" y="84" fps="24" anim="down" name="singDOWN"/>
+</character>

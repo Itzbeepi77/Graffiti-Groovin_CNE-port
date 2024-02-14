@@ -17,7 +17,9 @@ import openfl.text.TextFormat;
 import flixel.text.FlxTextBorderStyle;
 import flixel.util.FlxAxes;
 import flixel.math.FlxMath;
+import flixel.FlxCamera;
 
+var camShit:FlxCamera;
 var optionShit:Array<String> = [
     'story',
     'freeplay',
@@ -26,13 +28,15 @@ var optionShit:Array<String> = [
     'gallery',
 ];
 var curSelected:Int = 0;
-var menuItems:FlxTypedGroup<FlxSprite>;
+var menuItems:FlxTypedGroup<FunkinSprite>;
 var menuItems = new FlxTypedGroup();
-var shaderArray:Array<BitmapFilter> = [];
 public var anims:Array<String> = [];
 public var canAccessDebugMenus:Bool = true;
 
 function postCreate() {
+    FlxG.cameras.add(camShit = new FlxCamera(), false);
+    camShit.bgColor = FlxColor.TRANSPARENT;
+
     CoolUtil.playMenuSong();
 
     var bg:FunkinSprite = new FunkinSprite().loadGraphic(Paths.image('menus/mmbg'));
@@ -58,7 +62,7 @@ function postCreate() {
     add(menuChars);
 
     add(menuItems);
-    menuItem = new FlxSprite(70, 39);
+    menuItem = new FunkinSprite(70, 39);
     menuItem.scrollFactor.set();
     menuItem.scale.set(0.9, 0.9);
     menuItem.updateHitbox();
@@ -70,7 +74,7 @@ function postCreate() {
     }
     menuItems.add(menuItem);
 
-    galleryShit = new FlxSprite(772, 528);
+    galleryShit = new FunkinSprite(772, 528);
     galleryShit.frames = Paths.getFrames('menus/mainmenu/gallery', 'preload');
     galleryShit.animation.addByPrefix('base', "gallery0", 24, false);
     galleryShit.animation.addByPrefix('gallery', "gallery press0", 24, false);
@@ -143,7 +147,7 @@ function selectItem() {
                     id: "storylmao",
                     sprite: null,
                     chars: [null, null, null],
-                    songs: [for (song in ["soda-pop","groovin","streetstyle"]) {name: song, hide: false}],
+                    songs: [for (song in ["soda-pop","groovin","streetstyle","beat-it"]) {name: song, hide: false}],
                     difficulties: ['normal']
             }, "normal");
     

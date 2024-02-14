@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Fuck",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

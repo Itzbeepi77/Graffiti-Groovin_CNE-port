@@ -1,0 +1,19 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 196,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7572995,
+	"displayName": "rushdown",
+	"icon": "henchmen",
+	"name": "rushdown",
+	"color": "#8C71FD",
+	"customValues": {
+		"Composer": "Kalpy FT. SugarMoon"
+	}
+}

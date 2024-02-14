@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="-50" y="325" icon="henchmen" camy="30" scale="1.25" flipX="false" isPlayer="false">
+	<anim loop="false" x="48" anim="intro" fps="24" y="118" name="intro"/>
+
+	<anim loop="false" x="-5" anim="hench idle" fps="24" y="0" name="idle"/>
+
+	<anim loop="false" x="-5" anim="hench up0" fps="24" y="150" name="singUP"/>
+
+	<anim loop="false" x="-80" anim="hench left0" fps="24" y="44" name="singRIGHT"/>
+
+	<anim loop="false" x="64" anim="hench right0" fps="24" y="22" name="singLEFT"/>
+
+	<anim loop="false" x="45" anim="hench down0" fps="24" y="-34" name="singDOWN"/>
+</character>

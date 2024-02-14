@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" sprite="countdown" icon="skarlet" y="80" scale="1" isPlayer="false" flipX="false">
+	<anim x="-5" loop="false" y="0" fps="24" anim="three0" name="idle"/>
+
+	<anim x="-5" loop="false" y="0" fps="24" anim="three0" name="three"/>
+
+	<anim x="11" loop="false" y="-3" fps="24" anim="two0" name="two"/>
+
+	<anim x="5" loop="false" y="-20" fps="24" anim="one0" name="one"/>
+
+	<anim x="42" loop="false" y="60" fps="24" anim="go0" name="go"/>
+</character>

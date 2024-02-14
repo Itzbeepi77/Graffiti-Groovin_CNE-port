@@ -1,15 +1,14 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="bf" y="350" isPlayer="true" flipX="true">
-	<anim x="-5" loop="false" y="0" fps="24" anim="bf intro0" name="intro"/>
+<character x="0" camx="-70" y="350" icon="bf" camy="-400" flipX="true" isPlayer="true">
+	<anim loop="false" x="-12" anim="bf intro0" fps="24" y="855" name="intro"/>
 
-	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
 
-	<anim x="-59" loop="false" y="37" fps="24" anim="up0" name="singUP"/>
+	<anim loop="false" x="-59" anim="up0" fps="24" y="37" name="singUP"/>
 
-	<anim x="22" loop="false" y="11" fps="24" anim="left0" name="singLEFT"/>
+	<anim loop="false" x="22" anim="left0" fps="24" y="11" name="singLEFT"/>
 
-	<anim x="-60" loop="false" y="13" fps="24" anim="right0" name="singRIGHT"/>
+	<anim loop="false" x="-60" anim="right0" fps="24" y="13" name="singRIGHT"/>
 
-	<anim x="-39" loop="false" y="-34" fps="24" anim="down0" name="singDOWN"/>
-
+	<anim loop="false" x="-39" anim="down0" fps="24" y="-34" name="singDOWN"/>
 </character>

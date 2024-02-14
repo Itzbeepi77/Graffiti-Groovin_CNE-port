@@ -1,0 +1,38 @@
+<TextureAtlas imagePath="icon-mora.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture x="0" frameWidth="170" y="0" frameX="-6" name="icon losing0000" frameHeight="211" frameY="10" width="170" height="206"/>
+	<SubTexture x="0" frameWidth="170" y="0" frameX="-6" name="icon losing0001" frameHeight="211" frameY="10" width="170" height="206"/>
+	<SubTexture x="0" frameWidth="170" y="0" frameX="-6" name="icon losing0002" frameHeight="211" frameY="10" width="170" height="206"/>
+	<SubTexture x="0" frameWidth="170" y="0" frameX="-6" name="icon losing0003" frameHeight="211" frameY="10" width="170" height="206"/>
+	<SubTexture x="170" frameWidth="170" y="0" frameX="-7" name="icon losing0004" frameHeight="211" frameY="14" width="168" height="211"/>
+	<SubTexture x="170" frameWidth="170" y="0" frameX="-7" name="icon losing0005" frameHeight="211" frameY="14" width="168" height="211"/>
+	<SubTexture x="170" frameWidth="170" y="0" frameX="-7" name="icon losing0006" frameHeight="211" frameY="14" width="168" height="211"/>
+	<SubTexture x="170" frameWidth="170" y="0" frameX="-7" name="icon losing0007" frameHeight="211" frameY="14" width="168" height="211"/>
+	<SubTexture x="338" frameWidth="170" y="0" frameX="-6" name="icon losing0008" frameHeight="211" frameY="12" width="170" height="206"/>
+	<SubTexture x="338" frameWidth="170" y="0" frameX="-6" name="icon losing0009" frameHeight="211" frameY="12" width="170" height="206"/>
+	<SubTexture x="338" frameWidth="170" y="0" frameX="-6" name="icon losing0010" frameHeight="211" frameY="12" width="170" height="206"/>
+	<SubTexture x="338" frameWidth="170" y="0" frameX="-6" name="icon losing0011" frameHeight="211" frameY="12" width="170" height="206"/>
+	<SubTexture x="508" frameWidth="190" y="0" frameX="0" name="icon neutral0000" frameHeight="194" frameY="-1" width="189" height="190"/>
+	<SubTexture x="508" frameWidth="190" y="0" frameX="0" name="icon neutral0001" frameHeight="194" frameY="-1" width="189" height="190"/>
+	<SubTexture x="508" frameWidth="190" y="0" frameX="0" name="icon neutral0002" frameHeight="194" frameY="-1" width="189" height="190"/>
+	<SubTexture x="508" frameWidth="190" y="0" frameX="0" name="icon neutral0003" frameHeight="194" frameY="-1" width="189" height="190"/>
+	<SubTexture x="697" frameWidth="190" y="0" frameX="-3" name="icon neutral0004" frameHeight="194" frameY="0" width="186" height="194"/>
+	<SubTexture x="697" frameWidth="190" y="0" frameX="-3" name="icon neutral0005" frameHeight="194" frameY="0" width="186" height="194"/>
+	<SubTexture x="697" frameWidth="190" y="0" frameX="-3" name="icon neutral0006" frameHeight="194" frameY="0" width="186" height="194"/>
+	<SubTexture x="697" frameWidth="190" y="0" frameX="-3" name="icon neutral0007" frameHeight="194" frameY="0" width="186" height="194"/>
+	<SubTexture x="0" frameWidth="190" y="211" frameX="-4" name="icon neutral0008" frameHeight="194" frameY="-1" width="186" height="188"/>
+	<SubTexture x="0" frameWidth="190" y="211" frameX="-4" name="icon neutral0009" frameHeight="194" frameY="-1" width="186" height="188"/>
+	<SubTexture x="0" frameWidth="190" y="211" frameX="-4" name="icon neutral0010" frameHeight="194" frameY="-1" width="186" height="188"/>
+	<SubTexture x="0" frameWidth="190" y="211" frameX="-4" name="icon neutral0011" frameHeight="194" frameY="-1" width="186" height="188"/>
+	<SubTexture x="186" frameWidth="189" y="211" frameX="-2" name="losing to neutral0000" frameHeight="208" frameY="11" width="174" height="203"/>
+	<SubTexture x="360" frameWidth="189" y="211" frameX="-4" name="losing to neutral0001" frameHeight="208" frameY="14" width="172" height="202"/>
+	<SubTexture x="532" frameWidth="189" y="211" frameX="-3" name="losing to neutral0002" frameHeight="208" frameY="0" width="184" height="194"/>
+	<SubTexture x="532" frameWidth="189" y="211" frameX="-3" name="losing to neutral0003" frameHeight="208" frameY="0" width="184" height="194"/>
+	<SubTexture x="508" frameWidth="190" y="0" frameX="0" name="losing to neutral0004" frameHeight="194" frameY="-1" width="189" height="190"/>
+	<SubTexture x="716" frameWidth="190" y="211" frameX="0" name="neutral to losing0000" frameHeight="208" frameY="-3" width="190" height="190"/>
+	<SubTexture x="0" frameWidth="190" y="414" frameX="-1" name="neutral to losing0001" frameHeight="208" frameY="-3" width="189" height="195"/>
+	<SubTexture x="189" frameWidth="190" y="414" frameX="-1" name="neutral to losing0002" frameHeight="208" frameY="-1" width="179" height="193"/>
+	<SubTexture x="189" frameWidth="190" y="414" frameX="-1" name="neutral to losing0003" frameHeight="208" frameY="-1" width="179" height="193"/>
+	<SubTexture x="0" frameWidth="170" y="0" frameX="-6" name="neutral to losing0004" frameHeight="211" frameY="10" width="170" height="206"/>
+</TextureAtlas>
