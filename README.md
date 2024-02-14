@@ -4,14 +4,11 @@ shoutout to reichi and the teams
 # things that will included(TODOS)
 - mechanic dodging in freakpunk.
 - fixing and adding stuff that are missing/not added for now.
-- streetstyle mid cutscenes aswell for freakpunk.
 - train moving in subway stage.
 - more custom states.
 - uhh Idk.
 
 # things that already included (unreleased and released)
-released:
-- skarlet songs (story songs).
 
 unreleased:
 - shaders (kind of broken, also it's unused for now).
