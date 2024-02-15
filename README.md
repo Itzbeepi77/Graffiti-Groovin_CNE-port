@@ -28,3 +28,6 @@ unreleased:
 - custom main menu.
 - removing some broken lines on the scripts.
 - and more.
+
+# PLAY THE WIP BRANCH INSTEAD
+THIS BRANCH IS NOT GONNA GET AN UPDATE UNTIL THE WIP BRANCH FINISH COMPLETELY
