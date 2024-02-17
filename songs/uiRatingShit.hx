@@ -8,9 +8,10 @@ import flixel.FlxG;
 var timeBarBG:FunkinSprite;
 var timeBar:FlxBar;
 var shitTween:FlxTween;
+public var timetxt:FunkinText;
 public var ratingTxt:FunkinText;
+public var scoresTxt:FunkinText;
 public var numRates:Int = 0;
-public var scores:Int = songScore;
 public var comboLayer = [];
 
 function create(){
@@ -109,8 +110,6 @@ function update(elapsed) {
 
 function onPlayerHit(e){
     if (e.note.isSustainNote) return;
-
-    scores += songScore;
 
     var rates = e.rating;
 
