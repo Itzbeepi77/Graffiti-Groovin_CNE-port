@@ -1,7 +1,7 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/alleyway/images/" zoom="0.6">
 	<gf/>
-	<dad camxoffset="100"/>
-	<bf camxoffset="-100" camyoffset="-100"/>
+	<dad camxoffset="150" camyoffset="50"/>
+	<bf camxoffset="-150" camyoffset="25"/>
 	<combo/>
 </stage>

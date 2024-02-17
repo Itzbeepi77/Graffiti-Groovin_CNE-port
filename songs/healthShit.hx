@@ -1,6 +1,7 @@
 // heh
 import flixel.math.FlxRect;
 import flixel.math.FlxPoint;
+import groovin.game.AnimatedIcon;
 
 public var leftBar:FlxSprite = new FlxSprite(0, 615);
 public var rightBar:FlxSprite = new FlxSprite(0, 615);
@@ -28,6 +29,7 @@ function create(){
     leftBar.scrollFactor.set();
     leftBar.cameras = [camHUD];
     leftBar.flipX = true;
+    leftBar.clipRect = new FlxRect(0, 0, leftBar.frameWidth, leftBar.frameHeight);
     
     rightBar.frames = Paths.getSparrowAtlas("hpBar");
     rightBar.animation.addByPrefix("idle", "mask", 24, true);
@@ -38,6 +40,7 @@ function create(){
     rightBar.scrollFactor.set();
     rightBar.cameras = [camHUD];
     rightBar.flipX = true;
+    rightBar.clipRect = new FlxRect(0, 0, rightBar.frameWidth, rightBar.frameHeight);
 
     barBG = new FlxSprite(0, 578);
     barBG.frames = Paths.getSparrowAtlas("hpBar");
@@ -48,8 +51,6 @@ function create(){
     barBG.screenCenter(FlxAxes.X);
     barBG.cameras = [camHUD];
     barBG.scrollFactor.set();
-
-    health = displayHealth;
     
     rightBar.antialiasing = leftBar.antialiasing = barBG.antialiasing = true;
     
@@ -84,6 +85,8 @@ function create(){
             rightBar.angle = leftBar.angle = barBG.angle = 180;
         }
     }
+    barWidth = rightBar.frameWidth = leftBar.frameWidth;
+    barHeight = rightBar.frameHeight = leftBar.frameHeight;
 }
 
 function beatHit(curBeat){
@@ -93,25 +96,57 @@ function beatHit(curBeat){
 function postCreate(){
     healthBar.alpha = 0.001;
     healthBarBG.alpha = 0.001;
-    if(!downscroll){
-        rightBar.flipX = false;
-        leftBar.flipX = false;
-    }
+
+    comboGroup.visible = false;
 }
 
 public var displayHealth:Float = 1;
     
-override function update(e){
-    var shit = new FlxRect(0, 0, 19 + (960 - (displayHealth * 580)), leftBar.frameHeight);
-    var fuck = new FlxRect(19 + (960 - (displayHealth * 580)), 0, rightBar.frameWidth - (19 + (960 - (displayHealth * 580))), rightBar.frameHeight);
-    leftBar.clipRect = shit;
-    rightBar.clipRect = fuck;
+override function update(elapsed){
+    // Idk fuck it
+    var oppY = (opponentIcon.curCharacter == 'skid'? 55 : opponentIcon.curCharacter == 'henchmen'? 65 : opponentIcon.curCharacter == 'hex'? 45 : opponentIcon.curCharacter == 'mora'? -15 : 85);
 
-    displayHealth = FlxMath.lerp(displayHealth, health, FlxMath.bound(0.2 * 60 * e, 0, 1));
+    if(!downscroll)
+    {
+        leftBar = rightBar;
+        rightBar = leftBar;
+    }
+    leftBar.screenCenter(FlxAxes.X);
+    rightBar.screenCenter(FlxAxes.X);
+    leftBar.x += posOffset.x;
+    rightBar.x += posOffset.x;
+
+    displayHealth = FlxMath.lerp(displayHealth, health, FlxMath.bound(0.2 * 60 * elapsed, 0, 1));
     if(Math.abs(displayHealth - health) < 0.01)
         displayHealth = health;
 
     var percent = 1 - displayHealth / 2;
-    
+
     percent = FlxMath.bound(percent, 0, 1);
+
+    var leftSize:Float = 0;
+    leftSize = FlxMath.lerp(0, barWidth, percent);
+    if(!downscroll) leftSize = barWidth - leftSize;
+    
+    leftBar.clipRect.width = leftSize;
+    leftBar.clipRect.height = barHeight;
+    leftBar.clipRect.x = barOffset.x;
+    leftBar.clipRect.y = barOffset.y;
+
+    rightBar.clipRect.width = barWidth + leftSize;
+    rightBar.clipRect.height = barHeight;
+    rightBar.clipRect.x = barOffset.x - leftSize;
+    rightBar.clipRect.y = barOffset.y;
+
+    leftBar.clipRect = leftBar.clipRect;
+    rightBar.clipRect = rightBar.clipRect;
+
+    var barCenter = leftBar.x + rightBar.width * percent + barOffset.x;
+
+    var iconSep = 26;
+
+    if (curSong != "freakpunk"){
+        opponentIcon.x = barCenter - 115 / 2 - iconSep / 2 - oppY;// - (300) / 2 - iconOffset
+        playerIcon.x = barCenter + 115 / 2 + iconSep - 50;// - (0) / 2 + iconOffset;
+    }
 }

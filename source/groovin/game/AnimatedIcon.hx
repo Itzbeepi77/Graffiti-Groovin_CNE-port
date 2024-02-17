@@ -5,9 +5,10 @@ import Xml;
 import haxe.Exception;
 
 class AnimatedIcon extends funkin.backend.FunkinSprite {
-	public var curSong:String = "";
+	private var songName:String = PlayState.SONG.meta.displayName;
 	public var curCharacter:String = 'bf';
 	public var danceInterval:Int = 1;
+	public var displayHealth:Float = 1;
 	public var losing:Bool = false;
 	public var moveIcon:Bool = false;
 
@@ -61,8 +62,14 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y + 30);
 
 		if (healthBar != null) {
-			x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 1, 0)) - (flipX ? width + -50 : 50));
-			losing = ((healthBar.percent <= 25 && !flipX) || (healthBar.percent >= 75 && flipX));
+			switch(songName){
+				default:
+					//turn this off to make the health move smoothly
+					//x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 1, 0)) - (flipX ? width + -50 : 50));
+					losing = ((healthBar.percent <= 25 && !flipX) || (healthBar.percent >= 75 && flipX));
+
+				case "freakpunk":
+			}
 		}
 	}
 

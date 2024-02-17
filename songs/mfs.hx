@@ -57,11 +57,9 @@ function onPostCharacterChange(event) {
 }
 
 function update(e){
-	if (!curSong == 'freakpunk'){
-		if (opponentIcon.curCharacter == 'whitty' || opponentIcon.curCharacter == 'mora'){
-			losing = ((healthBar.percent <= 25 && opponentIcon.flipX) || (healthBar.percent >= 75 && !opponentIcon.flipX));
-			opponentIcon.playAnim(losing ? 'losing' : 'normal', losing ? false : false);
-		}
+	if (opponentIcon.curCharacter == 'whitty' || opponentIcon.curCharacter == 'mora'){
+		losing = ((healthBar.percent <= 25 && opponentIcon.flipX) || (healthBar.percent >= 75 && !opponentIcon.flipX));
+		opponentIcon.playAnim(losing ? 'losing' : 'normal', losing ? false : false);
 	}
 }
 

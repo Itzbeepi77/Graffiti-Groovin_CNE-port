@@ -10,8 +10,8 @@ var timeBar:FlxBar;
 var shitTween:FlxTween;
 public var ratingTxt:FunkinText;
 public var numRates:Int = 0;
-//var shits:FlxTimer = null;
-var flicking:Bool = false;
+public var scores:Int = songScore;
+public var comboLayer = [];
 
 function create(){
     timeTxt = new FlxText(0, 19, 400, "X:XX", 32);
@@ -50,28 +50,34 @@ function create(){
     timeTxt.cameras = [camHUD];
 }
 function postCreate(){
-    ratingTxt = new FlxText(565, (!curSong == 'freakpunk'? rightBar.y - 25: 590), 0, "", 30);
+    ratingTxt = new FlxText(565, (!curSong == 'freakpunk'? rightBar.y - 25: 590), 0, "");
     ratingTxt.setFormat(Paths.font("akira.ttf"), 30, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
     ratingTxt.borderSize = 3;
     ratingTxt.antialiasing = true;
     ratingTxt.alpha = 0.001;
-    add(ratingTxt);
 
     ratingTxt.cameras = [camHUD];
     
-    scoresTxt = new FlxText(590, ratingTxt.y - 25, 0, "", 30);
+    scoresTxt = new FlxText(590, ratingTxt.y - 25, 0, "");
     scoresTxt.setFormat(Paths.font("akira.ttf"), 30, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
     scoresTxt.borderSize = 3;
     scoresTxt.antialiasing = true;
     scoresTxt.alpha = 0.001;
-    add(scoresTxt);
 
     scoresTxt.cameras = [camHUD];
+		
+    add(scoresTxt);
+    add(ratingTxt);
+
+    for (i in [scoresTxt,ratingTxt]){comboLayer.push(i);}
+
+    for (hud in [scoreTxt,missesTxt,accuracyTxt]){hud.alpha = 0.001;}
 }
 
 function onSongStart() for (i in [timeBar, timeBarBG, timeTxt]) FlxTween.tween(i, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 
-function update(e) {
+var flashingCombo:Float = 0;
+function update(elapsed) {
     if (inst != null && timeBar != null && timeBar.max != inst.length) timeBar.setRange(0, Math.max(1, inst.length));
 
     if (inst != null && timeTxt != null) {
@@ -80,28 +86,31 @@ function update(e) {
         var minutes = Std.int(timeRemaining / 60);
         timeTxt.text = minutes + ":" + seconds;
     }
+
+    ratingTxt.scale.x = FlxMath.lerp(ratingTxt.scale.x, 1, FlxMath.bound(elapsed * 20, 0, 1));
+    scoresTxt.scale.x = FlxMath.lerp(scoresTxt.scale.x, 1, FlxMath.bound(elapsed * 20, 0, 1));
+
+    if (flashingCombo > 0) {
+        flashingCombo -= elapsed;
+        if(flashingCombo <= 0) {
+            {
+                flashingCombo = 0;
+                for (i in comboLayer){
+                    FlxFlicker.flicker(i, Conductor.crochet / 1000 * 4, 0.1, true, true, function(flick:FlxFlicker){
+                        i.alpha = 0;
+                        flashingCombo = 0;
+                        songScore = 0;
+                    });
+                }
+            }
+        }
+    }
 }
 
 function onPlayerHit(e){
-    if (shitTween == null){
-    if (!flicking){
-        for (shit in [ratingTxt,scoresTxt]){
-        shitTween = FlxTween.tween(shit, {alpha: 1}, 0.05, {ease: FlxEase.quadInOut,
-        onComplete:
-            function(twn:FlxTween){
-                flicking = true;
-                new FlxTimer().start(1, function(tmr:FlxTimer){
-                    FlxFlicker.flicker(shit, 1, 0.12, false, false,
-                        function(flick:FlxFlicker){
-                        flicking = false;
-                        shitTween = null;
-                    });
-                });
-            }
-        });
-    }}}
-
     if (e.note.isSustainNote) return;
+
+    scores += songScore;
 
     var rates = e.rating;
 
@@ -117,7 +126,15 @@ function onPlayerHit(e){
     }
     if (numRates > 0) {
         ratingTxt.text = rates + " X" + numRates;
-        scoresTxt.text = songScore;
+        scoresTxt.text = scores;
+
+        ratingTxt.scale.x += 0.05;
+        scoresTxt.scale.x += 0.05;
+    }
+    for (i in comboLayer){
+        FlxFlicker.stopFlickering(i);
+        flashingCombo = 0.5;
+        i.alpha = 1;
     }
 }
 function onPlayerMiss(e){
