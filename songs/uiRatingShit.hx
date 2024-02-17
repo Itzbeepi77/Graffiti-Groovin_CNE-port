@@ -125,7 +125,7 @@ function onPlayerHit(e){
     }
     if (numRates > 0) {
         ratingTxt.text = rates + " X" + numRates;
-        scoresTxt.text = scores;
+        scoresTxt.text = songScore;
 
         ratingTxt.scale.x += 0.05;
         scoresTxt.scale.x += 0.05;
