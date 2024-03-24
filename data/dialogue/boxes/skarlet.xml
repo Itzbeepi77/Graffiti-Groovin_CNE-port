@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-dialogue-box>
+<dialoguebox scale="0.7" y="-10" x="115">
+	<!--
+		Node containing all text settings
+	 -->
+	<text font="vcr.ttf" x="456" y="206" width="1053" color="#FFFFFF" size="30"/>
+
+	<!--
+		All positions for characters
+	-->
+	<charpos name="left" x="-550" y="184" />
+	<charpos name="middle" x="0" y="184" />
+	<charpos name="right" x="350" y="184" flipBubble="true"/>
+
+	<anim name="normal" anim="speech bubble" fps="24" loop="true" indices="0,1,2,3,4,5,6,7,8,9,10"/>
+	<anim name="normal-open" anim="speech bubble intro" fps="24" loop="false"/>
+</dialoguebox>

@@ -1,16 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-70" y="70" icon="skarlet" camy="90" scale="1" flipX="false" isPlayer="false" sprite="playableskarlet">
-	<anim loop="false" x="-16" anim="hurt" fps="24" y="29" name="hurt"/>
+<character x="-120" icon="skarlet" y="60" camx="-10" scale="1" camy="100" color="#F9007F" isPlayer="true" flipX="true" sprite="skarlet-freeplay">
+	<anim x="-11" loop="false" y="29" fps="24" anim="idle" name="idle"/>
 
-	<anim loop="false" x="18" anim="jump" fps="24" y="942" name="jump"/>
+	<anim x="-18" loop="false" y="38" fps="24" anim="up0" name="singUP"/>
 
-	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
+	<anim x="24" loop="false" y="7" fps="24" anim="left0" name="singLEFT"/>
 
-	<anim loop="false" x="15" anim="up0" fps="24" y="30" name="singUP"/>
+	<anim x="-15" loop="false" y="4" fps="24" anim="right0" name="singRIGHT"/>
 
-	<anim loop="false" x="5" anim="left0" fps="24" y="-38" name="singLEFT"/>
-
-	<anim loop="false" x="-36" anim="right0" fps="24" y="-6" name="singRIGHT"/>
-
-	<anim loop="false" x="25" anim="down0" fps="24" y="-131" name="singDOWN"/>
+	<anim x="22" loop="false" y="-136" fps="24" anim="down0" name="singDOWN"/>
 </character>

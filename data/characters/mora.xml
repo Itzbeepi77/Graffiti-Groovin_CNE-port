@@ -1,37 +1,37 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-150" y="240" icon="mora" isGF="false" camy="300" flipX="true" isPlayer="false" sprite="mora-fight-atlas">
-	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
+<character x="0" isGF="false" icon="mora" y="240" camx="-150" camy="300" isPlayer="false" flipX="true" sprite="mora-fight-atlas">
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
 
-	<anim loop="false" x="-371" anim="hurt" fps="24" y="3" name="hurt"/>
-
-    
-	<anim loop="false" x="-171" anim="attack" fps="24" y="26" name="attack"/>
+	<anim x="-371" loop="false" y="3" fps="24" anim="hurt" name="hurt"/>
 
     
-	<anim loop="false" x="-22" anim="laugh" fps="24" y="40" name="laugh"/>
+	<anim x="-171" loop="false" y="26" fps="24" anim="attack" name="attack"/>
 
     
-	<anim loop="false" x="-551" anim="jumpscare" fps="24" y="42" name="jumpscare"/>
+	<anim x="-22" loop="false" y="40" fps="24" anim="laugh" name="laugh"/>
 
     
-	<anim loop="false" x="-110" anim="angry" fps="24" y="37" name="angy"/>
+	<anim x="-551" loop="false" y="42" fps="24" anim="jumpscare" name="jumpscare"/>
 
     
-	<anim loop="false" x="-175" anim="ko" fps="24" y="280" name="ko"/>
+	<anim x="-113" loop="false" y="35" fps="24" anim="angry" name="angy"/>
 
-	<anim loop="false" x="-37" anim="up" fps="24" y="72" name="singUP"/>
+    
+	<anim x="-175" loop="false" y="280" fps="24" anim="ko" name="ko"/>
 
-	<anim loop="false" x="-85" anim="left" fps="24" y="17" name="singRIGHT"/>
+	<anim x="-37" loop="false" y="72" fps="24" anim="up" name="singUP"/>
 
-	<anim loop="false" x="23" anim="right" fps="24" y="19" name="singLEFT"/>
+	<anim x="-85" loop="false" y="17" fps="24" anim="left" name="singRIGHT"/>
 
-	<anim loop="false" x="-64" anim="down" fps="24" y="-56" name="singDOWN"/>
+	<anim x="23" loop="false" y="19" fps="24" anim="right" name="singLEFT"/>
 
-	<anim loop="false" x="-41" anim="up alt" fps="24" y="72" name="singUP-alt"/>
+	<anim x="-64" loop="false" y="-56" fps="24" anim="down" name="singDOWN"/>
 
-	<anim loop="false" x="-85" anim="left alt" fps="24" y="18" name="singRIGHT-alt"/>
+	<anim x="-41" loop="false" y="72" fps="24" anim="up alt" name="singUP-alt"/>
 
-	<anim loop="false" x="21" anim="right alt" fps="24" y="21" name="singLEFT-alt"/>
+	<anim x="-85" loop="false" y="18" fps="24" anim="left alt" name="singRIGHT-alt"/>
 
-	<anim loop="false" x="-57" anim="down alt" fps="24" y="-55" name="singDOWN-alt"/>
+	<anim x="21" loop="false" y="21" fps="24" anim="right alt" name="singLEFT-alt"/>
+
+	<anim x="-57" loop="false" y="-55" fps="24" anim="down alt" name="singDOWN-alt"/>
 </character>

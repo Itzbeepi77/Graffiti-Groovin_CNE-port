@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-60" icon="whitty" y="-30" isGF="false" sprite="whitty-assets" color="#282741" flipX="false" isPlayer="false">
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+
+	<anim x="25" loop="false" y="-13" fps="24" anim="up0" name="singUP"/>
+
+	<anim x="34" loop="false" y="-75" fps="24" anim="left0" name="singLEFT"/>
+
+	<anim x="-18" loop="false" y="-6" fps="24" anim="right0" name="singRIGHT"/>
+
+	<anim x="10" loop="false" y="-62" fps="24" anim="down0" name="singDOWN"/>
+</character>

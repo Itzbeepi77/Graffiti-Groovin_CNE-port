@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 202,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7572995,
+	"displayName": "bunboxxin",
+	"icon": "matt",
+	"name": "bunboxxin",
+	"color": "#8C71FD",
+	"customValues": {}
+}

@@ -8,7 +8,7 @@ function create() {
     for (i in 0...2) {
         var cinematicBar:FunkinSprite = new FunkinSprite().makeSolid(1, 1, 0xFF000000);
         cinematicBar.scrollFactor.set(0, 0);
-        cinematicBar.zoomFactor = 0;
+        //cinematicBar.zoomFactor = 0;
         cinematicBar.cameras = [cam3];
         insert(0, cinematicBar);
 

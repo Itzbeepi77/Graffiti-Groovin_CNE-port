@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 192,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": false,
+	"parsedColor": -7572995,
+	"displayName": "naifu",
+	"icon": "nene",
+	"name": "naifu",
+	"color": "#8C71FD",
+	"customValues": {}
+}

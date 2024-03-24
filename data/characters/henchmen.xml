@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-50" y="325" icon="henchmen" camy="30" scale="1.25" flipX="false" isPlayer="false">
+<character x="0" camx="-50" y="325" icon="henchmen" camy="30" scale="1.25" flipX="false" isPlayer="false" color="#FF73A1">
 	<anim loop="false" x="48" anim="intro" fps="24" y="118" name="intro"/>
 
 	<anim loop="false" x="-5" anim="hench idle" fps="24" y="0" name="idle"/>

@@ -1,41 +1,5 @@
 <!DOCTYPE codename-titlestate >
 <titlestate>
-	<sprites folder="menus/titlescreen">
-		<sprite name="sky" sprite="skyy" x="-430" y="-300" scale="1" />
-		<sprite name="bg" sprite="buildings_far" x="-410" y="-100" scale="1" />
-		<sprite name="bg_fg" sprite="buildings" x="-656" y="-100" scale="1" />
-		<sprite name="overlay" sprite="sunoverlay" x="400" y="0" scale="1" />
-		
-		<sprite name="bars" sprite="bars" x="-315" y="-180" scale="0.67" />
-
-		<sprite name="logo" sprite="logo" x="-600" y="-325" scale="0.4" />
-	</sprites>
-
-	<intro length="24">
-		<text beat="11">
-			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
-		</text>
-
-		<text beat="12" /> <!-- clears the screen !-->
-
-		<text beat="16">
-			<introtext line="1" />
-		</text>
-
-		<text beat="18">
-			<introtext line="1" />
-			<introtext line="2" />
-		</text>
-
-		<text beat="21" /> <!-- clears the screen !-->
-
-		<text beat="22">
-			<line text="Graffiti" />
-		</text>
-
-		<text beat="23">
-			<line text="Graffiti" />
-			<line text="Groovin'" />
-		</text>
-	</intro>
+	<sprites folder="titlescreen"/>
+	<intro length="-1"/>
 </titlestate>

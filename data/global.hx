@@ -1,10 +1,15 @@
+static var seenMenuCutscene:Bool = false;
+
 static var redirectStates:Map<FlxState, String> = [
-    MainMenuState => "custom/groovinMenu",
-    StoryMenuState => "custom/groovinMenu"// well uhh personal reasons
+    TitleState => "custom/GroovinTitleMenu",
+    MainMenuState => "custom/GroovinMenu",
+    StoryMenuState => "custom/GroovinMenu",
+    PauseSubState => "PauseMenu",
 ];
 
 function preStateSwitch() {
-		for (redirectState in redirectStates.keys())
-			if (FlxG.game._requestedState is redirectState)
-				FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
+	window.title = "Graffiti Groovin";
+    for (redirectState in redirectStates.keys())
+        if (FlxG.game._requestedState is redirectState)
+            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
 }

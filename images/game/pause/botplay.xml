@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="botplay.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="botplay0000" x="0" y="0" width="764" height="294"/>
+	<SubTexture name="botplay white0000" x="764" y="0" width="840" height="356" frameX="0" frameY="-29" frameWidth="840" frameHeight="385"/>
+	<SubTexture name="botplay white0001" x="0" y="356" width="840" height="328" frameX="0" frameY="-25" frameWidth="840" frameHeight="385"/>
+	<SubTexture name="botplay white0002" x="840" y="356" width="840" height="341" frameX="0" frameY="-11" frameWidth="840" frameHeight="385"/>
+	<SubTexture name="botplay white0003" x="0" y="697" width="840" height="346" frameX="0" frameY="-6" frameWidth="840" frameHeight="385"/>
+	<SubTexture name="botplay white0004" x="840" y="697" width="840" height="352" frameX="0" frameY="0" frameWidth="840" frameHeight="385"/>
+	<SubTexture name="botplay white0005" x="0" y="1049" width="840" height="346" frameX="0" frameY="-20" frameWidth="840" frameHeight="385"/>
+</TextureAtlas>

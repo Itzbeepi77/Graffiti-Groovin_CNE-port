@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="skarlet_portraits" scale="0.8" y="-75" x="100">
+	<anim name="neutral" anim="neutral" fps="24" />
+	<anim name="smug" anim="smug" fps="24" />
+	<anim name="surprised" anim="surprised" fps="24" />
+	<anim name="glad" anim="glad" fps="24" />
+	<anim name="angry" anim="angry" fps="24" />
+</character>

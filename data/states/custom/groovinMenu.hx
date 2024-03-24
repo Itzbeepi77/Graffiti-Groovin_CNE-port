@@ -6,9 +6,10 @@ import funkin.menus.MainMenuState;
 import funkin.backend.scripting.events.MenuChangeEvent;
 import funkin.backend.scripting.events.NameEvent;
 import funkin.backend.scripting.EventManager;
-import funkin.menus.credits.CreditsMain;
-import funkin.options.OptionsMenu;
+import funkin.backend.MusicBeatState;
 import funkin.editors.EditorPicker;
+import funkin.options.OptionsMenu;
+import funkin.menus.credits.CreditsMain;
 import funkin.menus.ModSwitchMenu;
 import flixel.effects.FlxFlicker;
 import flixel.addons.display.FlxBackdrop;
@@ -17,9 +18,8 @@ import openfl.text.TextFormat;
 import flixel.text.FlxTextBorderStyle;
 import flixel.util.FlxAxes;
 import flixel.math.FlxMath;
-import flixel.FlxCamera;
+import funkin.backend.scripting.Script;
 
-var camShit:FlxCamera;
 var optionShit:Array<String> = [
     'story',
     'freeplay',
@@ -28,16 +28,20 @@ var optionShit:Array<String> = [
     'gallery',
 ];
 var curSelected:Int = 0;
+var floatvalve:Float = 0;
+var floatvalve2:Float = 0.30;
+var floaty:Float = 0;
+var floaty2:Float = 0;
 var menuItems:FlxTypedGroup<FunkinSprite>;
 var menuItems = new FlxTypedGroup();
+var skarlet:FunkinSprite;
 public var anims:Array<String> = [];
 public var canAccessDebugMenus:Bool = true;
 
 function postCreate() {
-    FlxG.cameras.add(camShit = new FlxCamera(), false);
-    camShit.bgColor = FlxColor.TRANSPARENT;
-
     CoolUtil.playMenuSong();
+    
+    DiscordUtil.changePresence("In Main Menu", null);
 
     var bg:FunkinSprite = new FunkinSprite().loadGraphic(Paths.image('menus/mmbg'));
     bg.scrollFactor.set(0.03, 0.03);
@@ -52,14 +56,16 @@ function postCreate() {
     bars.scale.set(0.7,0.6);
 	add(bars);
 
-    var shit:String = FlxG.random.bool(50) ? 'mora' : 'skarlet_small';
-    menuChars = new FunkinSprite().loadGraphic(Paths.image("menus/renders/" + shit));
-	menuChars.antialiasing = true;
-	menuChars.scrollFactor.set(0.07, 0.07);
-    menuChars.setGraphicSize(Std.int(menuChars.width * (shit == 'mora' ? 0.554 : 0.6)));
-    menuChars.x = FlxG.width - menuChars.width + 80 - (shit == 'mora' ? -170 : -275);
-    menuChars.y = FlxG.height - menuChars.height + (shit == 'mora' ? 620 : 515);
-    add(menuChars);
+    var name_:String = FlxG.random.bool(50) ? 'mora' : 'skarlet_small';
+    skarlet = new FunkinSprite();
+    skarlet.loadGraphic(Paths.image('menus/renders/' + name_));
+    skarlet.scrollFactor.set(0.07, 0.07);
+    skarlet.setGraphicSize(Std.int(skarlet.width * (name_ == 'mora' ? 0.554 : 0.6)));
+    skarlet.updateHitbox();
+    skarlet.x = FlxG.width - skarlet.width + 80 - (name_ == 'mora' ? 130 : 0);
+    skarlet.y = FlxG.height - skarlet.height + (name_ == 'mora' ? 250 : 210);
+    skarlet.antialiasing = true;
+    add(skarlet);
 
     add(menuItems);
     menuItem = new FunkinSprite(70, 39);
@@ -107,25 +113,58 @@ function update(elapsed:Float) {
                 openSubState(new EditorPicker());
             }
         }
-        if (controls.SWITCHMOD) {
-            openSubState(new ModSwitchMenu());
-            persistentUpdate = false;
-            persistentDraw = true;
-        }
+
         if (controls.UP_P)
             changeItem(-1);
 
         if (controls.DOWN_P)
             changeItem(1);
+        
+        if (controls.SWITCHMOD) {
+            openSubState(new ModSwitchMenu());
+            persistentUpdate = false;
+            persistentDraw = true;
+        }
 
         if (controls.ACCEPT)
         {
             selectItem();
         }
+
         if (controls.BACK)
         {
             FlxG.switchState(new TitleState());
         }
+    }
+    
+    var sinvalve = Math.sin(floatvalve);
+    var cosvalve = Math.cos(floatvalve);
+    var sinvalve2 = Math.sin(floatvalve2);
+
+    floaty += 0.04 * elapsed * 5;
+    floaty2 -= 0.009 * elapsed * 5;
+    floatvalve += 0.05 * elapsed * 5;
+    floatvalve2 -= 0.01 * elapsed * 5;
+    skarlet.y += sinvalve * elapsed * 2.5;
+    skarlet.x += cosvalve * elapsed * 2.5;
+    
+    var lerpVal:Float = FlxMath.bound(elapsed*7.5,0,1);
+    switch(optionShit[curSelected]){
+        case 'story':
+            //FlxTween.tween(FlxG.camera.scroll, {x: 420, y:203}, lerpVal);
+            FlxG.camera.scroll.set(lerp(FlxG.camera.scroll.x, 420, lerpVal),lerp(FlxG.camera.scroll.y, 203, lerpVal));
+        case 'freeplay':
+            //FlxTween.tween(FlxG.camera.scroll, {x: 381, y:353}, lerpVal);
+            FlxG.camera.scroll.set(lerp(FlxG.camera.scroll.x, 381, lerpVal), lerp(FlxG.camera.scroll.y, 353, lerpVal));
+        case 'credits':
+            //FlxTween.tween(FlxG.camera.scroll, {x: 404, y:532}, lerpVal);
+            FlxG.camera.scroll.set(lerp(FlxG.camera.scroll.x, 404, lerpVal), lerp(FlxG.camera.scroll.y, 532, lerpVal));
+        case 'options':
+            //FlxTween.tween(FlxG.camera.scroll, {x: 500, y:540}, lerpVal);
+            FlxG.camera.scroll.set(lerp(FlxG.camera.scroll.x, 500, lerpVal), lerp(FlxG.camera.scroll.y, 540, lerpVal));
+        case 'gallery':
+            //FlxTween.tween(FlxG.camera.scroll, {x: 600, y:540}, lerpVal);
+            FlxG.camera.scroll.set(lerp(FlxG.camera.scroll.x, 600, lerpVal), lerp(FlxG.camera.scroll.y, 590, lerpVal));
     }
 }
 
@@ -133,21 +172,19 @@ function selectItem() {
     var daChoice:String = optionShit[curSelected];
     trace(daChoice + " selected");
 
-    var event = event("onSelectItem", EventManager.get(NameEvent).recycle(daChoice));
-    if (event.cancelled) return;
+    CoolUtil.playMenuSFX("CONFIRM", 0.7);
     new FlxTimer().start(1, function(tmr:FlxTimer)
     {
         selectedSomethin = true;
-        CoolUtil.playMenuSFX("CONFIRM", 0.7);
         switch (daChoice)
         {
-            case 'story':// yes also uhh fuck it (WOOHOO THANKS NE_EO!!)
+            case 'story':// yes also uhh fuck it (WOOHOO THANKS NEEO!!)
             PlayState.loadWeek({
                     name: "storylmao",
                     id: "storylmao",
                     sprite: null,
                     chars: [null, null, null],
-                    songs: [for (song in ["soda-pop","groovin","streetstyle","beat-it"]) {name: song, hide: false}],
+                    songs: [for (song in ["soda-pop","groovin","streetstyle","beat-it","rushdown","freakpunk"]) {name: song, hide: false}],
                     difficulties: ['normal']
             }, "normal");
     

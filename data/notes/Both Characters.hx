@@ -24,8 +24,14 @@ function onDadHit(note:NoteHitEvent){
 
     switch(curNotes){
     case "Both Characters":
-        strumLines.members[3].characters[0].playAnim("sing" + singDir[note.direction], true);
-        dad.playAnim("sing" + singDir[note.direction], true);
+        if (!FlxG.save.data.botPlay || note.note.strumLine.opponentSide){
+            strumLines.members[3].characters[0].playAnim("sing" + singDir[note.direction], true);
+            dad.playAnim("sing" + singDir[note.direction], true);
+        } else if (FlxG.save.data.botPlay){
+            if (note.note.strumLine.opponentSide) return;
+            gf.playAnim("sing" + singDir[note.direction], true);
+            boyfriend.playAnim("sing" + singDir[note.direction], true);
+        }
         note.cancelAnim();
     }
 }

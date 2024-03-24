@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="mora_portraits" scale="0.5">
+	<anim name="glad" anim="glad" fps="24" />
+	<anim name="mad" anim="mad" fps="24" />
+</character>

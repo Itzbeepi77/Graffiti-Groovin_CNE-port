@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/matt/images/" zoom="0.9">
+	<gf/>
+	<sprite x="-473.5" sprite="gym" y="0.5" scale="1.45" name="gym">
+		
+		
+		<anim loop="true" name="idle" anim="bg bump" fps="24"/>
+		
+	
+	</sprite>
+	<dad x="970" y="-69"/>
+	<sprite x="611.5" sprite="bag" y="0.5" scale="1.1" type="none" name="bag">
+		
+		
+		<anim loop="true" name="idle" anim="bag idle" fps="24"/>
+		
+		
+		<anim loop="false" name="hit" anim="hit" fps="24"/>
+		
+		
+		<anim loop="false" name="knockout" anim="knockout" fps="24"/>
+		
+	
+	</sprite>
+	<bf x="129" y="49"/>
+	<combo x="535" y="89"/>
+</stage>

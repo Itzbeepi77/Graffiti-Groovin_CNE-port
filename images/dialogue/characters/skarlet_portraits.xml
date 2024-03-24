@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skarlet_portraits.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="angry0000" x="0" y="0" width="579" height="923"/>
+	<SubTexture name="glad0000" x="579" y="0" width="579" height="923"/>
+	<SubTexture name="neutral0000" x="1158" y="0" width="579" height="923"/>
+	<SubTexture name="smug0000" x="0" y="923" width="579" height="923"/>
+	<SubTexture name="surprised0000" x="579" y="923" width="579" height="923"/>
+</TextureAtlas>

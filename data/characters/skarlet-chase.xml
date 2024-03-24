@@ -4,7 +4,7 @@
 
 	<anim loop="false" x="29" anim="aim0" fps="24" y="-1" name="aim"/>
 
-	<anim loop="false" x="21" anim="aim loop" fps="24" y="-20" name="aimL"/>
+	<anim loop="false" x="21" anim="aim loop" fps="24" y="-20" name="idle-aim"/>
 
 	<anim loop="false" x="2" anim="land" fps="24" y="674" name="land"/>
 

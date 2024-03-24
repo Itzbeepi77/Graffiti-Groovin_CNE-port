@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Trail Color",
+            "type": "DropDown('bf', 'nene', 'hex', 'whitty', 'darnell', 'pico', 'none')",
+            "defaultValue": "none"
+        }
+    ]
+}

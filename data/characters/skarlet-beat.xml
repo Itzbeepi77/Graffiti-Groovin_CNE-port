@@ -1,12 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" sprite="playableskarlet" icon="skarlet" y="95" scale="1" camy="100" isPlayer="false" flipX="false">
+<character x="0" icon="skarlet" y="95" isGF="false" camy="100" color="#F9007F" isPlayer="false" sprite="playableskarlet">
 	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
-
 	<anim x="11" loop="false" y="27" fps="24" anim="up0" name="singUP"/>
-
 	<anim x="7" loop="false" y="-39" fps="24" anim="left0" name="singLEFT"/>
-
 	<anim x="-38" loop="false" y="-8" fps="24" anim="right0" name="singRIGHT"/>
-
 	<anim x="25" loop="false" y="-131" fps="24" anim="down0" name="singDOWN"/>
 </character>

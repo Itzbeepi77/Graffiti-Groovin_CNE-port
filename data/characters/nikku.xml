@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" camx="-70" y="50" icon="nikku" camy="0" scale="1" flipX="false" isPlayer="false" sprite="nikku" color="#E02054">
+	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
+
+	<anim loop="false" x="45" anim="up0" fps="24" y="110" name="singUP"/>
+
+	<anim loop="false" x="132" anim="left0" fps="24" y="30" name="singLEFT"/>
+
+	<anim loop="false" x="-16" anim="right0" fps="24" y="-29" name="singRIGHT"/>
+
+	<anim loop="false" x="31" anim="down0" fps="24" y="90" name="singDOWN"/>
+</character>

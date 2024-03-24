@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="-220" camx="50" isGF="false" y="90" icon="nene" camy="130" isPlayer="false" flipX="false" color="#FF6CA7" sprite="nene_fight">
+	<anim loop="false" x="-5" anim="idle0" fps="24" y="0" name="idle"/>
+
+	<anim loop="false" x="5" anim="hurt0" fps="24" y="150" name="hurt"/>
+
+	<anim loop="false" x="74" anim="pre0" fps="24" y="57" name="pre-attack"/>
+
+	<anim loop="false" x="-223" anim="throw0" fps="24" y="-83" name="attack"/>
+
+	<anim loop="false" x="-111" anim="up0" fps="24" y="-6" name="singUP"/>
+
+	<anim loop="false" x="-19" anim="left0" fps="24" y="1" name="singLEFT"/>
+
+	<anim loop="false" x="-57" anim="right0" fps="24" y="-47" name="singRIGHT"/>
+
+	<anim loop="false" x="-95" anim="down0" fps="24" y="-79" name="singDOWN"/>
+</character>

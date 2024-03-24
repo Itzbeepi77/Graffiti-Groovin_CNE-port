@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-70" y="350" icon="bf" camy="-400" flipX="true" isPlayer="true">
+<character x="0" camx="-70" y="350" icon="bf" camy="-400" flipX="true" isPlayer="true" color="#21D6E7">
 	<anim loop="false" x="-12" anim="bf intro0" fps="24" y="855" name="intro"/>
 
 	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>

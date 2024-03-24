@@ -1,6 +1,11 @@
 {
     "params": [
         {
+            "name": "Cameo Character",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
             "name": "Fuck",
             "type": "Bool",
             "defaultValue": true

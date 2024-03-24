@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/metro/images/" zoom="0.5">
+<stage folder="stages/metro/images/" zoom="0.7">
 	<sprite x="101.5" y="-81" sprite="background" scale="1.05" name="bg" scroll="0.95"/>
 
 	<sprite x="674" y="541" sprite="boppers_left" type="none" name="bopsL" scroll="0.9">
@@ -10,7 +10,7 @@
 		<anim loop="false" fps="24" anim="bop" name="idle"/>
 	</sprite>
 
-	<sprite x="-1451.5" y="462" sprite="trains" name="train"/>
+	<!-- <sprite x="-1451.5" y="462" sprite="trains" name="train"/> [not used for a reason (check subway.hx)]-->
 	<sprite sprite="floorground" name="fg"/>
 	<gf x="935.5" y="530" alpha="0.001"/>
 	<dad x="534.25" y="451.5" camxoffset="300"/>

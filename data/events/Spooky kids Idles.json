@@ -1,9 +1,9 @@
 {
     "params": [
-        {
-            "name": "idle Shits",
-            "type": "StrumLine",
-            "defaultValue": 0
+		{
+            "name": "Its Spooky Month!!",
+            "type": "DropDown('both', 'skid', 'pump', 'back to idle (both)', 'back to idle (skid)', 'back to idle (pump)')",
+            "defaultValue": "both"
         }
     ]
 }

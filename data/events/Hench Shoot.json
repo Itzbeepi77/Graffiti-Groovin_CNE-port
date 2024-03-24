@@ -1,9 +1,9 @@
 {
     "params": [
-        {
-            "name": "Fuck",
-            "type": "Bool",
-            "defaultValue": true
+		{
+            "name": "Funny",
+            "type": "DropDown('WASSAP FUCKERS', 'shoot', 'man Im ded')",
+            "defaultValue": "WASSAP FUCKERS"
         }
     ]
 }

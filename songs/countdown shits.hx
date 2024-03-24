@@ -28,7 +28,7 @@ function create(){
 
 function onCountdown(event) {// countdown thingy
     switch(curSong){
-        case 'soda-pop', 'groovin':
+        case 'soda-pop', 'groovin', 'candy-sauce', 'fuss', 'fuss-erect':
             switch(event.swagCounter) {
                 case 0:
                         Skarintro.playAnim('three', true);
@@ -50,12 +50,15 @@ function onCountdown(event) {// countdown thingy
                         countNum.playAnim('go', true);
 
                 case 4:
-                        countNum.alpha = 0.001;
+                        countNum.animation.finishCallback = function (name:String) {
+                            if (name == 'go')
+                                countNum.alpha = 0.001;
+                        }
                         dad.alpha = 1; 
                         Skarintro.alpha = 0.001; 
             };
 
-        case 'streetstyle':
+        case 'streetstyle', 'freakpunk':
                 event.cancel();
 
         default:
@@ -72,14 +75,15 @@ function onCountdown(event) {// countdown thingy
     
                 case 3: 
                         countNum.playAnim('go', true);
-
-                case 4:
-                        countNum.alpha = 0.001;
+                        countNum.animation.finishCallback = function (name:String) {
+                            if (name == 'go')
+                                countNum.alpha = 0.001;
+                        }
             };
     }
 }
 function onSongStart(){
-        if (curSong == 'streetstyle') camera.alpha = 1;
+        if (curSong == 'streetstyle' || curSong == 'freakpunk') camera.alpha = 1;
 }
 function postCreate(){
 	Skarintro = new Character(0, 0, "countdown", false);
@@ -90,6 +94,6 @@ function postCreate(){
         Skarintro.y = dad.y+15;
     
         add(countNum);
-        if (curSong == 'streetstyle') camera.alpha = 0.001;
+        if (curSong == 'streetstyle' || curSong == 'freakpunk') camera.alpha = 0.001;
         trace("Countdown Shits");
 }

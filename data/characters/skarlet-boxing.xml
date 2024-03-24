@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="skarlet" y="70" camx="170" scale="1" camy="80" isPlayer="true" flipX="true" sprite="skarlet_boxing" color="#F9007F">
+	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+
+	<anim x="-6" loop="false" y="0" fps="24" anim="up0" name="singUP"/>
+
+	<anim x="-6" loop="false" y="0" fps="24" anim="left0" name="singLEFT"/>
+
+	<anim x="0" loop="false" y="-1" fps="24" anim="right0" name="singRIGHT"/>
+
+	<anim x="-5" loop="false" y="3" fps="24" anim="down0" name="singDOWN"/>
+</character>

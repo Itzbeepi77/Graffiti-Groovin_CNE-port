@@ -7,13 +7,11 @@
 	"difficulties": [
 		"NORMAL"
 	],
-	"needsVoices": true,
-	"parsedColor": -7376387,
+	"needsVoices": false,
+	"parsedColor": -7572995,
 	"displayName": "freakpunk",
 	"icon": "mora",
 	"name": "freakpunk",
-	"color": "#8F71FD",
-	"customValues": {
-		"Composer": "Kalpy"
-	}
+	"color": "#8C71FD",
+	"customValues": {}
 }

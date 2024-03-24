@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" sprite="skarlet_soda" icon="skarlet" y="80" scale="1" isPlayer="false" flipX="false">
+<character x="0" sprite="skarlet_soda" icon="skarlet" y="80" scale="1" isPlayer="false" flipX="false" color="#F9007F">
 	<anim x="-5" loop="false" y="0" fps="24" anim="drink" name="drink"/>
 
 	<anim x="-5" loop="false" y="0" fps="24" anim="idle" name="idle"/>

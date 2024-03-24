@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="140" y="120" icon="skarlet" sprite="skarlet-fight-atlas" camy="400" flipX="true" isPlayer="true">
+<character x="0" camx="140" y="120" icon="skarlet" sprite="skarlet-fight-atlas" camy="400" flipX="true" isPlayer="true" color="#F9007F">
 	<anim loop="false" x="-5" anim="hurt" fps="24" y="11" name="hurt"/>
 
-	<anim loop="false" x="-2" anim="pre jump" fps="24" y="-192" name="pre-jump"/>
+	<anim loop="false" x="-2" anim="pre jump" fps="24" y="-192" name="pre-dodge"/>
 
 	<anim loop="false" x="75" anim="jump" fps="24" y="41" name="jump"/>
 

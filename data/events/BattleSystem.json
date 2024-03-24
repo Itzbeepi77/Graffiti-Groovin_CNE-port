@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "BATTLE! (true == dad, false == bf)",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

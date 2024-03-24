@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Turn On?",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

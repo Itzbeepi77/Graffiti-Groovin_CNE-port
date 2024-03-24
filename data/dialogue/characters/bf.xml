@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="bf_portraits" scale="0.5" x="150">
+	<anim name="glad" anim="glad" fps="24" />
+	<anim name="idiot" anim="idiot" fps="24" />
+</character>

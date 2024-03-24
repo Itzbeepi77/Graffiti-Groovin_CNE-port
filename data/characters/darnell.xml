@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="10" icon="darnell" y="130" isGF="false" sprite="darnell" color="#89388A" flipX="false" isPlayer="false">
+	<anim x="15" loop="false" y="20" fps="24" anim="idle" name="idle"/>
+
+	<anim x="55" loop="false" y="57" fps="24" anim="up0" name="singUP"/>
+
+	<anim x="34" loop="false" y="0" fps="24" anim="left0" name="singLEFT"/>
+
+	<anim x="14" loop="false" y="19" fps="24" anim="right0" name="singRIGHT"/>
+
+	<anim x="24" loop="false" y="-25" fps="24" anim="down0" name="singDOWN"/>
+</character>

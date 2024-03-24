@@ -1,6 +1,6 @@
 function onNoteCreation(e) {
     switch (curSong) {
-        case "soda-pop", "groovin", "streetstyle", "sinister":
+        case "soda-pop", "groovin", "streetstyle", "sinister", "fuss", "bunboxxin":
             e.noteSprite = 'game/notes/NOTE_skarlet';
             e.note.splash = "skarlet";
     }
@@ -9,7 +9,7 @@ function onNoteCreation(e) {
 
 function onStrumCreation(e) {
     switch (curSong) {
-        case "soda-pop", "groovin", "streetstyle", "sinister":
+        case "soda-pop", "groovin", "streetstyle", "sinister", "fuss", "bunboxxin":
             e.sprite = 'game/notes/NOTE_skarlet';
     }
     e.strum.alpha = 0.7;

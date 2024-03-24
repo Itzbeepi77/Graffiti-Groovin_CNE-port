@@ -42,7 +42,7 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 				addOffset(node.get('name'), Std.parseFloat(node.get('x')), Std.parseFloat(node.get('y')));
 			}
 
-			playAnim(!losing ? 'normal' : 'losing', true);
+			playAnim(!losing ? 'normal' : 'losing');
 		} catch(e:Exception) {
 			trace(e);
 			trace('loading placeholder icon for ' + (!flipX ? 'player' : 'opponent'));
@@ -59,7 +59,7 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 		super.update(elapsed);
 
 		if (sprTracker != null)
-			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y + 30);
+			setPosition(sprTracker.x + sprTracker.width + 10, sprTracker.y - 30);
 
 		if (healthBar != null) {
 			switch(songName){
@@ -75,5 +75,5 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 
 	public function beatHit(curBeat:Int)
 		if (curBeat % danceInterval == 0 && !debug)
-			playAnim(!losing ? 'normal' : 'losing', !losing ? true : false);
+			playAnim(!losing ? 'normal' : 'losing');
 }

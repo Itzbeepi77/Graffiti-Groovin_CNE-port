@@ -1,11 +1,14 @@
-// heh
+/** This is where all the health placed
+ * a bit messy I know but better than never,
+ * right..?
+ * **/
 import flixel.math.FlxRect;
 import flixel.math.FlxPoint;
 import groovin.game.AnimatedIcon;
 
 public var leftBar:FlxSprite = new FlxSprite(0, 615);
 public var rightBar:FlxSprite = new FlxSprite(0, 615);
-var barBG:FlxSprite;
+public var barBG:FlxSprite;
 
 public var skarletBar:FunkinSprite = new FunkinSprite(1000, !downscroll? 50: 500);
 public var moraBar:FunkinSprite = new FunkinSprite(0, !downscroll? 50: 500);
@@ -65,9 +68,7 @@ function create(){
     //leftBar.screenCenter();
 
     skarletBar.frames = Paths.getSparrowAtlas('skarlet/images/hud/health/health-skarlet');
-    for (i in 0...anims.length){
-        skarletBar.animation.addByPrefix(anims[i], anims[i] + '0', 24, false);
-    }
+    for (i in 0...anims.length) skarletBar.animation.addByPrefix(anims[i], anims[i] + '0', 24, false);
     skarletBar.setGraphicSize(Std.int(skarletBar.width / 1.4));
     skarletBar.updateHitbox();
     skarletBar.animation.play('3');
@@ -90,27 +91,20 @@ function create(){
 }
 
 function beatHit(curBeat){
-    skarletBar.animation.play(skarletBar.animation.curAnim.name);
+    skarletBar.animation.play(skarletBar.animation.curAnim.name);// for anim shit
 }
 
 function postCreate(){
     healthBar.alpha = 0.001;
     healthBarBG.alpha = 0.001;
-
-    comboGroup.visible = false;
 }
 
 public var displayHealth:Float = 1;
     
-override function update(elapsed){
-    // Idk fuck it
-    var oppY = (opponentIcon.curCharacter == 'skid'? 55 : opponentIcon.curCharacter == 'henchmen'? 65 : opponentIcon.curCharacter == 'hex'? 45 : opponentIcon.curCharacter == 'mora'? -15 : 85);
+function update(elapsed){
+    leftBar = leftBar;
+    rightBar = rightBar;
 
-    if(!downscroll)
-    {
-        leftBar = rightBar;
-        rightBar = leftBar;
-    }
     leftBar.screenCenter(FlxAxes.X);
     rightBar.screenCenter(FlxAxes.X);
     leftBar.x += posOffset.x;
@@ -145,8 +139,10 @@ override function update(elapsed){
 
     var iconSep = 26;
 
+    var oppX = (opponentIcon.curCharacter == "skarlet"? 75: opponentIcon.curCharacter == "nikku"? 75: 85/2);
+
     if (curSong != "freakpunk"){
-        opponentIcon.x = barCenter - 115 / 2 - iconSep / 2 - oppY;// - (300) / 2 - iconOffset
-        playerIcon.x = barCenter + 115 / 2 + iconSep - 50;// - (0) / 2 + iconOffset;
+        opponentIcon.x = barCenter - 150 / 2 - iconSep / 2 - oppX;// - (300) / 2 - iconOffset
+        playerIcon.x = barCenter + 300 / 2 + iconSep / 2 - 85/2;
     }
 }
