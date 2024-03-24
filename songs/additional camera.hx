@@ -7,6 +7,6 @@ function create(){
     cam3.bgColor = FlxColor.TRANSPARENT;
     FlxG.cameras.add(camHUD, false);
 }
-function update(elapsed){
+function postUpdate(elapsed){
     cam3.zoom = camHUD.zoom;
 }
