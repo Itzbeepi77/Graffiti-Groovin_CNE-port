@@ -7,6 +7,7 @@ import groovin.game.AnimatedIcon;
 var leftColor:Int = dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : 0xFFFF0000;
 var rightColor:Int = boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : 0xFF66FF33;
 var losing:Bool = false;
+static var botPlay:Bool = false;
 public var playerIcon:AnimatedIcon;
 public var opponentIcon:AnimatedIcon;
 
@@ -101,10 +102,10 @@ function update(e){
 		losing = ((healthBar.percent <= 25 && opponentIcon.flipX) || (healthBar.percent >= 75 && !opponentIcon.flipX));
 		opponentIcon.playAnim(losing ? 'losing' : 'normal');
 	}
-	player.cpu = FlxG.save.data.botPlay;
+	player.cpu = botPlay;
 }
 
-if(FlxG.save.data.botPlay){
+if(botPlay){
 	function onNoteHit(event){
 		if (event.note.strumLine.opponentSide) return;
 		event.healthGain = 0.045;

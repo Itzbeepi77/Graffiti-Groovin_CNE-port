@@ -16,6 +16,7 @@ var wall:FlxSprite;
 var render:FunkinSprite;
 var levelInfo:FunkinText;
 var canSelect:Bool = false;
+static var botPlay:Bool = false;
 
 function create() {
 	FlxG.state.persistentUpdate = false;
@@ -159,17 +160,19 @@ function update(elapsed:Float) {
 	}
 
 	function selectItem(selected:String) {
-		FlxTween.tween(render, {x: render.x+(FlxG.width - render.width)}, 2, {ease: FlxEase.expoInOut});
-		FlxTween.tween(wall, {x: wall.x -600}, 2, {ease: FlxEase.expoInOut});
 		switch(selected) {
 			case 'resume':
+				canSelect = false;
                 FlxTween.tween(camPause, {zoom: 6}, 2, {ease: FlxEase.expoInOut,
                     onComplete: function(twn:FlxTween){
                         close();
                         //FlxTween.tween(camPause, {alpha: 0.001}, 0.5, {ease: FlxEase.quartInOut});
                     }
                 });
+				FlxTween.tween(wall, {x: wall.x -600}, 2, {ease: FlxEase.expoInOut});
+				FlxTween.tween(render, {x: render.x+(FlxG.width - render.width)}, 2, {ease: FlxEase.expoInOut});
 			case 'restart':
+				canSelect = false;
                 FlxTween.tween(camPause, {zoom: 6}, 2, {ease: FlxEase.expoInOut,
                     onComplete: function(twn:FlxTween){
 						//parentDisabler.reset();
@@ -178,10 +181,13 @@ function update(elapsed:Float) {
                         //FlxTween.tween(camPause, {alpha: 0.001}, 0.5, {ease: FlxEase.quartInOut});
                     }
                 });
+				FlxTween.tween(wall, {x: wall.x -600}, 2, {ease: FlxEase.expoInOut});
+				FlxTween.tween(render, {x: render.x+(FlxG.width - render.width)}, 2, {ease: FlxEase.expoInOut});
 			case 'botplay':
-                FlxG.save.data.botPlay = !FlxG.save.data.botPlay;
-                trace(FlxG.save.data.botPlay);
+                botPlay = !botPlay;
+                trace("BOTPLAY: " + botPlay);
 			case 'exit':
+				canSelect = false;
                 FlxTween.tween(camPause, {zoom: 6}, 2, {ease: FlxEase.expoInOut,
                     onComplete: function(twn:FlxTween){
 						if (PlayState.isStoryMode)
@@ -194,6 +200,8 @@ function update(elapsed:Float) {
                         //FlxTween.tween(camPause, {alpha: 0.001}, 0.5, {ease: FlxEase.quartInOut});
                     }
                 });
+				FlxTween.tween(wall, {x: wall.x -600}, 2, {ease: FlxEase.expoInOut});
+				FlxTween.tween(render, {x: render.x+(FlxG.width - render.width)}, 2, {ease: FlxEase.expoInOut});
 		}
 	}
 
@@ -216,7 +224,6 @@ function update(elapsed:Float) {
 			changeItem(curSelected == menuItems.length-1 ? 0 : curSelected + 1);
 	
 		if (controls.ACCEPT){
-			canSelect = false;
 			selectItem(menuItems[curSelected]);
 		}
 	}

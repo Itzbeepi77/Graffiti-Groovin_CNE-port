@@ -1,3 +1,5 @@
+static var botPlay:Bool = false;
+
 function create(){
     bag.playAnim("idle", true);
     bag.addOffset("hit", 36,1);
@@ -9,7 +11,7 @@ function update(elapsed:Float){
     } else {
         bag.angle = 0;
     }
-    if (curBeat == 576 && controls.NOTE_UP || curBeat == 576 && FlxG.save.data.botPlay){// incase if you miss the very last note, it will not play the anim
+    if (curBeat == 576 && controls.NOTE_UP || curBeat == 576 && botPlay){// incase if you miss the very last note, it will not play the anim
         bag.playAnim("knockout", true, "LOCK");
         bag.animation.finishCallback = function (_) {bag.alpha = 0.001;}
         dad.playAnim("surprise", true, "LOCK");

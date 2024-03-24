@@ -1,6 +1,7 @@
 // this is it..
 
 var dodgeing = false;
+static var botPlay:Bool = false;
 var isDad:Bool = true;
 
 var circMech:FunkinSprite = new FunkinSprite(360,200);
@@ -30,7 +31,7 @@ function postCreate() {
     circMech.alpha = 0.001;
 }
 function update(elapsed:Float){
-	if(FlxG.keys.justPressed.SPACE && !FlxG.save.data.botPlay){
+	if(FlxG.keys.justPressed.SPACE && !botPlay){
 		dodgeing = true;
     }
     if (hit < 1){
@@ -81,12 +82,12 @@ function startMech(){
 
                                     new FlxTimer().start(.05, function(tmr)
                                         {
-                                            if(isDad && dodgeing || isDad &&  FlxG.save.data.botPlay && !dodgeing){
+                                            if(isDad && dodgeing || isDad &&  botPlay && !dodgeing){
                                                 trace("PRESS!!!");
                                                 //boyfriend.playAnim("attack",true);
                                                 boyfriend.playAnim("jump",true, "SING");
                                                 circMech.playAnim('good', true);
-                                            } else if (!isDad && dodgeing || !isDad && FlxG.save.data.botPlay && !dodgeing){
+                                            } else if (!isDad && dodgeing || !isDad && botPlay && !dodgeing){
                                                 trace("PRESS!!!");
                                                 //dad.playAnim("attack", true);
                                                 dad.playAnim("hurt", true, "SING");
