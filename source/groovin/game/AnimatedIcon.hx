@@ -8,9 +8,9 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 	private var songName:String = PlayState.SONG.meta.displayName;
 	public var curCharacter:String = 'bf';
 	public var danceInterval:Int = 1;
-	public var displayHealth:Float = 1;
+	public var animSuffix:String = "";
 	public var losing:Bool = false;
-	public var moveIcon:Bool = false;
+	private var midLosing:Bool = false;
 
 	public var healthBar:FlxBar = null;
 
@@ -20,9 +20,10 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 
 	public var sprTracker:FlxSprite = null;
 
-	public function new(char:String = 'bf', player:Bool = true, interval:Int = 1, health:FlxBar = null) {
+	public function new(char:String = 'bf', player:Bool = true, interval:Int = 1, suffix:String = "", health:FlxBar = null) {
 		flipX = char == 'whitty' || char == 'mora' ? false: !player;
 		danceInterval = interval;
+		animSuffix = suffix;
 		healthBar = health;
 
 		switchIcon(char);
@@ -42,7 +43,9 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 				addOffset(node.get('name'), Std.parseFloat(node.get('x')), Std.parseFloat(node.get('y')));
 			}
 
-			playAnim(!losing ? 'normal' : 'losing');
+			//playAnim(!midLosing ? 'backToIdle' : 'idleToLose');
+			animSuffix = !losing ? '' : '-lose';
+			playAnim('idle' + animSuffix);
 		} catch(e:Exception) {
 			trace(e);
 			trace('loading placeholder icon for ' + (!flipX ? 'player' : 'opponent'));
@@ -64,16 +67,25 @@ class AnimatedIcon extends funkin.backend.FunkinSprite {
 		if (healthBar != null) {
 			switch(songName){
 				default:
+					if (curCharacter == "whitty" || curCharacter == "mora"){
+						losing = ((healthBar.percent <= 25 && flipX) || (healthBar.percent >= 75 && !flipX));
+						midLosing = ((healthBar.percent == 25 && flipX) || (healthBar.percent == 75 && !flipX));
+					} else if (curCharacter != "whitty" || curCharacter != "mora"){
+						losing = ((healthBar.percent <= 25 && !flipX) || (healthBar.percent >= 75 && flipX));
+						midLosing = ((healthBar.percent == 25 && !flipX) || (healthBar.percent == 75 && flipX));
+					}
 					//turn this off to make the health move smoothly
 					//x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 1, 0)) - (flipX ? width + -50 : 50));
-					losing = ((healthBar.percent <= 25 && !flipX) || (healthBar.percent >= 75 && flipX));
 
 				case "freakpunk":
 			}
 		}
 	}
 
-	public function beatHit(curBeat:Int)
+	public function beatHit(curBeat:Int){
 		if (curBeat % danceInterval == 0 && !debug)
-			playAnim(!losing ? 'normal' : 'losing');
+			playAnim('idle' + animSuffix);
+		animSuffix = losing ? '-lose' : '';
+		//playAnim(!midLosing ? 'backToIdle' : 'idleToLose');
+	}
 }

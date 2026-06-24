@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#8C71FD",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 190,
 	"difficulties": [
 		"NORMAL"
 	],
-	"needsVoices": false,
-	"parsedColor": -7572995,
-	"displayName": "hyperbl1tz",
 	"icon": "nikku",
-	"name": "hyperbl1tz",
-	"color": "#8C71FD",
-	"customValues": {}
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "hyperbl1tz",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 190
 }

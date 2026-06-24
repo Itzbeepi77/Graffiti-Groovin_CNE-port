@@ -1,15 +1,13 @@
-import funkin.game.Character;
+/*__script__.setParent(PlayState.instance);
 
-var game;
-
-function create(){
-    game = PlayState.instance;
+function update(elapsed){
+    FlxG.camera.scroll.x = FlxMath.lerp(FlxG.camera.scroll.x, FlxG.camera.scroll.x, 0.04);
 }
 
 function popupChar(event) {
     if (event.char.positionName == "right"){
-        curCameraTarget = 1;
+        FlxG.camera.scroll.x = 200;
     } else if (event.char.positionName == "left"){
-        curCameraTarget = 1;
+        FlxG.camera.scroll.x = -200;
     }
-}
+}*/

@@ -41,6 +41,25 @@ function postCreate(){
     
         cameoMap.add(train);
     }
+
+    for (event in events){
+        if (event.name == "train cameo"){
+            var shit:String = event.params[0];
+            if (shit == null || shit == "") shit = "nikku";
+
+            for (key=>spr in doorShit) {
+                if (key == shit) cameos = spr;
+            }
+            if (cameos == null) return;
+            cameos.alpha = 1;
+
+            cameos.frames = Paths.getSparrowAtlas("stages/metro/images/cameos/" + shit);
+            graphicCache.cache(Paths.image("stages/metro/images/cameos/" + shit));
+            cameos.antialiasing = true;
+            cameos.updateHitbox();
+            doorShit.set(shit, cameos);
+        }
+    }
 }
 function onEvent(e){
     if (e.event.name == "train cameo"){
@@ -54,20 +73,17 @@ function onEvent(e){
         cameos.alpha = 1;
 
         cameos.frames = Paths.getSparrowAtlas("stages/metro/images/cameos/" + shit);
+        graphicCache.cache(Paths.image("stages/metro/images/cameos/" + shit));
         cameos.animation.addByPrefix('open', 'doors open', 24, false);
         cameos.animation.addByPrefix('close', 'doors closed', 24, false);
         cameos.animation.addByIndices('idle', 'doors open', [0], "", 24, false);
-        cameos.antialiasing = true;
         cameos.setPosition(2450 - 50 + 5 + 20, 105-10);
         cameos.animation.play('idle', true);
-        cameos.updateHitbox();
+        cameoMap.insert(0, cameos);
         doorShit.set(shit, cameos);
         trace('hello');
 
         if (e.event.params[1]){
-            cameoMap.insert(0, cameos);
-
-            preloadedCameo.push(cameos);
 
             cameos.animation.play('idle', true);
             FlxTween.tween(cameoMap, {x: -1400}, 5, {ease: FlxEase.cubeInOut,
@@ -90,8 +106,7 @@ function onEvent(e){
                                                         trace('bye');
                                                         cameoMap.x = -6100;
                                                         cameos.animation.play('idle', true);
-                                                        //cameoMap.remove(cameos);
-                                                        cameoMap.remove(cameos);
+                                                        cameos.alpha = 0.001;
                                                     }
                                                 });
                                             });

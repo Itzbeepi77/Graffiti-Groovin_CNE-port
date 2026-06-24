@@ -1,0 +1,3 @@
+function postCreate(){
+    playCutscene = true;
+}

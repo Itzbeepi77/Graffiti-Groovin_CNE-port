@@ -1,14 +1,14 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-70" y="350" icon="bf" camy="-400" flipX="true" isPlayer="true" color="#21D6E7">
-	<anim loop="false" x="-12" anim="bf intro0" fps="24" y="855" name="intro"/>
-
-	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
-
-	<anim loop="false" x="-59" anim="up0" fps="24" y="37" name="singUP"/>
-
-	<anim loop="false" x="22" anim="left0" fps="24" y="11" name="singLEFT"/>
-
-	<anim loop="false" x="-60" anim="right0" fps="24" y="13" name="singRIGHT"/>
-
-	<anim loop="false" x="-39" anim="down0" fps="24" y="-34" name="singDOWN"/>
+<character y="350" flipX="true" camx="-70"  camy="-400" isPlayer="true" icon="bf" color="#31B0D1">
+	<anim name="idle" anim="idle0"/>
+	<anim name="singLEFT" anim="left0" x="24" y="13"/>
+	<anim name="singDOWN" anim="down0" x="-27" y="-34"/>
+	<anim name="singUP" anim="up0" x="-51" y="34"/>
+	<anim name="singRIGHT" anim="right0" x="-39" y="14"/>
+	<anim name="intro" anim="bf intro" x="-8" y="855"/>
+	<anim name="idle-loop" anim="idle0" loop="true" indices="8..11"/>
+	<anim name="singLEFT-loop" anim="left0" x="24" y="13" loop="true" indices="2..5"/>
+	<anim name="singDOWN-loop" anim="down0" x="-27" y="-34" loop="true" indices="2..5"/>
+	<anim name="singUP-loop" anim="up0" x="-51" y="34" loop="true" indices="2..5"/>
+	<anim name="singRIGHT-loop" anim="right0" x="-39" y="14" loop="true" indices="2..5"/>
 </character>

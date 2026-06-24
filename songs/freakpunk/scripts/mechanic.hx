@@ -31,9 +31,9 @@ function postCreate() {
     circMech.alpha = 0.001;
 }
 function update(elapsed:Float){
-	if(FlxG.keys.justPressed.SPACE && !botPlay){
-		dodgeing = true;
-    }
+    if(FlxG.keys.justPressed.SPACE && !botPlay)
+        dodgeing = true;
+
     if (hit < 1){
         canDie = true;
         health -= 2;
@@ -66,46 +66,39 @@ function startMech(){
                         {
                             circMech.playAnim('two',true);
                             trace("TWO");
-                        
-                            new FlxTimer().start(.05, function(tmr)
-                                {
-                                    if (isDad){
-                                        boyfriend.playAnim("pre-dodge", true, "SING");
-                                    } else if (!isDad){
-                                        boyfriend.playAnim("pre-attack", true, "SING");
-                                    }
-                                });
+
+                            if (isDad){
+                                boyfriend.playAnim("pre-dodge", true, "SING");
+                            } else if (!isDad){
+                                boyfriend.playAnim("pre-attack", true, "SING");
+                            }
                             new FlxTimer().start(.25, function(tmr)
-                                {
+                                {   
                                     var char:Character = isDad ? dad : boyfriend;
                                     char.playAnim("attack", true, "SING");
 
-                                    new FlxTimer().start(.05, function(tmr)
-                                        {
-                                            if(isDad && dodgeing || isDad &&  botPlay && !dodgeing){
-                                                trace("PRESS!!!");
-                                                //boyfriend.playAnim("attack",true);
-                                                boyfriend.playAnim("jump",true, "SING");
-                                                circMech.playAnim('good', true);
-                                            } else if (!isDad && dodgeing || !isDad && botPlay && !dodgeing){
-                                                trace("PRESS!!!");
-                                                //dad.playAnim("attack", true);
-                                                dad.playAnim("hurt", true, "SING");
-                                                opponentLives--;
-                                                moraBar.animation.curAnim.curFrame = 5 - opponentLives;
-                                                circMech.playAnim('good', true);
-                                            }
-                                            else {
-                                                shitHit();
-                                                circMech.playAnim('miss', true);
-                                                dad.playAnim("attack", true, "SING");
-                                                boyfriend.playAnim("hurt", true, "SING");
-                                            }
-                                                new FlxTimer().start(.5, function(tmr)
-                                                    {
-                                                        circMech.alpha = 0.001;
-                                                    });
-                                                });
+                                        if(isDad && dodgeing || isDad && botPlay && !dodgeing){
+                                            trace("PRESS!!!");
+                                            //boyfriend.playAnim("attack",true);
+                                            boyfriend.playAnim("jump",true, "SING");
+                                            circMech.playAnim('good');
+                                        } else if (!isDad && dodgeing || !isDad && botPlay && !dodgeing){
+                                            trace("PRESS!!!");
+                                            //dad.playAnim("attack", true);
+                                            dad.playAnim("hurt", true, "SING");
+                                            opponentLives--;
+                                            moraBar.animation.curAnim.curFrame = 5 - opponentLives;
+                                            circMech.playAnim('good');
+                                        } else if (!dodgeing) {
+                                            shitHit();
+                                            circMech.playAnim('miss', true);
+                                            dad.playAnim("attack", true, "SING");
+                                            boyfriend.playAnim("hurt", true, "SING");
+                                        }
+
+                                        new FlxTimer().start(.5, function(tmr){
+                                                circMech.alpha = 0.001;
+                                        });
                                 });
                         });
 				});

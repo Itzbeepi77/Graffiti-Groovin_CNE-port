@@ -4,7 +4,6 @@
  * **/
 import flixel.math.FlxRect;
 import flixel.math.FlxPoint;
-import groovin.game.AnimatedIcon;
 
 public var leftBar:FlxSprite = new FlxSprite(0, 615);
 public var rightBar:FlxSprite = new FlxSprite(0, 615);
@@ -100,8 +99,10 @@ function postCreate(){
 }
 
 public var displayHealth:Float = 1;
+
+public var percent;
     
-function update(elapsed){
+function update(elapsed:Float){
     leftBar = leftBar;
     rightBar = rightBar;
 
@@ -114,7 +115,7 @@ function update(elapsed){
     if(Math.abs(displayHealth - health) < 0.01)
         displayHealth = health;
 
-    var percent = 1 - displayHealth / 2;
+    percent = 1 - displayHealth / 2;
 
     percent = FlxMath.bound(percent, 0, 1);
 
@@ -134,15 +135,4 @@ function update(elapsed){
 
     leftBar.clipRect = leftBar.clipRect;
     rightBar.clipRect = rightBar.clipRect;
-
-    var barCenter = leftBar.x + rightBar.width * percent + barOffset.x;
-
-    var iconSep = 26;
-
-    var oppX = (opponentIcon.curCharacter == "skarlet"? 75: opponentIcon.curCharacter == "nikku"? 75: 85/2);
-
-    if (curSong != "freakpunk"){
-        opponentIcon.x = barCenter - 150 / 2 - iconSep / 2 - oppX;// - (300) / 2 - iconOffset
-        playerIcon.x = barCenter + 300 / 2 + iconSep / 2 - 85/2;
-    }
 }

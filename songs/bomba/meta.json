@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#8C71FD",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 174,
 	"difficulties": [
 		"NORMAL"
 	],
-	"needsVoices": false,
-	"parsedColor": -7572995,
-	"displayName": "bomba",
 	"icon": "whitty",
-	"name": "bomba",
-	"color": "#8C71FD",
-	"customValues": {}
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "bomba",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 174
 }

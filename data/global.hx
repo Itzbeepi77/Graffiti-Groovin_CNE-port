@@ -1,13 +1,15 @@
+import funkin.backend.utils.WindowUtils;
+
+import hxvlc.util.Handle;
+
 static var seenMenuCutscene:Bool = false;
 
-static var redirectStates:Map<FlxState, String> = [
-    MainMenuState => "custom/GroovinMenu",
-    StoryMenuState => "custom/GroovinMenu",
-];
-
+function new() {
+	FlxG.mouse.useSystemCursor = true;
+    
+    Handle.init([]);
+}
 function preStateSwitch() {
+    WindowUtils.resetTitle();
 	window.title = "Graffiti Groovin";
-    for (redirectState in redirectStates.keys())
-        if (FlxG.game._requestedState is redirectState)
-            FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
 }

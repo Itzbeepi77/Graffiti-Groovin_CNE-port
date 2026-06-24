@@ -23,6 +23,7 @@ function postCreate(){
     var path = Paths.file("videos/CUTSCENE_STREETSTYLE.mp4");
 	video.load(Assets.getPath(path));
     video.y -= "15";
+    video.x -= "1";
 
     add(video);
     video.cameras = [camHUD];
@@ -36,14 +37,14 @@ function create() {
 	video2.load(Assets.getPath(path));
 	video2.cameras = [camHUD];
     video2.y -= "15";
-    
+    video2.x -= "1";
 	insert(1, video2);
 
 }
 
 function videokill(){
     video.destroy();
-    for (icons in [playerIcon,opponentIcon])
+    for (icons in [icon1,icon2])
         icons.alpha = 1;
 }
 

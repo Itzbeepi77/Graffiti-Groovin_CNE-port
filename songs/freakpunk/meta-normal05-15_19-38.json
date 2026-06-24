@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#8C71FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"NORMAL"
+	],
+	"icon": "mora",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "freakpunk",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 182
+}

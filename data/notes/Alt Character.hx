@@ -4,8 +4,7 @@ function onPlayerHit(note:NoteHitEvent){
 
     switch(curNotes){
     case "Alt Character":
-        gf.playAnim("sing" + singDir[note.direction], true);
-        note.cancelAnim();
+        note.characters = strumLines.members[2].characters;
     }
 }
 function onPlayerMiss(note){
@@ -13,8 +12,7 @@ function onPlayerMiss(note){
 
     switch(curNotes){
     case "Alt Character":
-        gf.playAnim("sing" + singDir[note.direction] + "miss", true);
-        note.cancelAnim();
+        note.characters = strumLines.members[2].characters;
     }
 }
 function onDadHit(note:NoteHitEvent){
@@ -22,12 +20,11 @@ function onDadHit(note:NoteHitEvent){
 
     switch(curNotes){
     case "Alt Character":
-        if (!FlxG.save.data.botPlay || note.note.strumLine.opponentSide){
-            strumLines.members[3].characters[0].playAnim("sing" + singDir[note.direction], true);
-        } else if (FlxG.save.data.botPlay){
+        if (!botPlay || note.note.strumLine.opponentSide){
+            note.characters = strumLines.members[3].characters;
+        } else if (botPlay){
             if (note.note.strumLine.opponentSide) return;
-            gf.playAnim("sing" + singDir[note.direction], true);
+            note.characters = strumLines.members[2].characters;
         }
-        note.cancelAnim();
     }
 }

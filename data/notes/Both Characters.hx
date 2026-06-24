@@ -4,9 +4,7 @@ function onPlayerHit(note:NoteHitEvent){
 
     switch(curNotes){
     case "Both Characters":
-        gf.playAnim("sing" + singDir[note.direction], true);
-        boyfriend.playAnim("sing" + singDir[note.direction], true);
-        note.cancelAnim();
+        gf.playSingAnim(note.direction, note.animSuffix, "SING", true);
     }
 }
 function onPlayerMiss(note){
@@ -14,9 +12,7 @@ function onPlayerMiss(note){
 
     switch(curNotes){
     case "Both Characters":
-        gf.playAnim("sing" + singDir[note.direction] + "miss", true);
-        boyfriend.playAnim("sing" + singDir[note.direction], true);
-        note.cancelAnim();
+        gf.playSingAnim(note.direction, note.animSuffix, "SING", true);
     }
 }
 function onDadHit(note:NoteHitEvent){
@@ -24,14 +20,11 @@ function onDadHit(note:NoteHitEvent){
 
     switch(curNotes){
     case "Both Characters":
-        if (!FlxG.save.data.botPlay || note.note.strumLine.opponentSide){
-            strumLines.members[3].characters[0].playAnim("sing" + singDir[note.direction], true);
-            dad.playAnim("sing" + singDir[note.direction], true);
-        } else if (FlxG.save.data.botPlay){
+        if (!botPlay || note.note.strumLine.opponentSide){
+            strumLines.members[3].characters[0].playSingAnim(note.direction, note.animSuffix, "SING", true);
+        } else if (botPlay){
             if (note.note.strumLine.opponentSide) return;
-            gf.playAnim("sing" + singDir[note.direction], true);
-            boyfriend.playAnim("sing" + singDir[note.direction], true);
+            gf.playSingAnim(note.direction, note.animSuffix, "SING", true);
         }
-        note.cancelAnim();
     }
 }

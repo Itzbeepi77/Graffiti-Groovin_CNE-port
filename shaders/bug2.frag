@@ -1,5 +1,11 @@
+#pragma header
 
+uniform float iTime;
 
+#define iResolution openfl_TextureSize
+#define iChannel0 bitmap
+#define iChannel1 bitmap
+#define texture texture2D
 #define DISPLACE .01
 
 float length2(vec2 p) { return dot(p, p); }
@@ -40,4 +46,10 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
     uv.y -=DISPLACE*.12;
 	vec4 back = texture(iChannel0, uv);
     fragColor = back;
+}
+void main(){
+	gl_FragColor=flixel_texture2D(bitmap,openfl_TextureCoordv);
+	vec2 coord=openfl_TextureCoordv;
+	vec2 fragCoord=(coord*openfl_TextureSize);
+	mainImage(gl_FragColor,fragCoord);
 }

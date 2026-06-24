@@ -9,4 +9,5 @@ function create(){
 }
 function postUpdate(elapsed){
     cam3.zoom = camHUD.zoom;
+    cam3.scroll = camHUD.scroll;
 }

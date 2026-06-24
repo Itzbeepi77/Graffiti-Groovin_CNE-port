@@ -32,17 +32,17 @@ function onEvent(e){
                 nycto.alpha = 1;
                 dad.alpha = 0.001;
                 new FlxTimer().start(1, function(tmr:FlxTimer){
-                    nycto.idleSuffix = "-one";
+                    nycto.playAnim("one", true, "LOCK");
                     camGame.zoom += 0.3;
                     camGame.shake(0.03,0.1);
                     camGame.angle = -10;
                     new FlxTimer().start(0.5, function(tmr:FlxTimer){
-                        nycto.idleSuffix = "-two";
+                        nycto.playAnim("two", true, "LOCK");
                         camGame.zoom += 0.3;
                         camGame.shake(0.03,0.1);
                         camGame.angle = 10;
                         new FlxTimer().start(0.5, function(tmr:FlxTimer){
-                            nycto.idleSuffix = "-three";
+                            nycto.playAnim("three", true, "LOCK");
                             boyfriend.cameraOffset.y -= 100;
                             dad.cameraOffset.y -= 100;
                             camGame.zoom += 0.3;

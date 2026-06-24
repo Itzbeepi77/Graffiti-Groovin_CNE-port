@@ -2,6 +2,8 @@ import funkin.game.cutscenes.Cutscene;
 import funkin.game.cutscenes.ScriptedCutscene;
 import funkin.game.cutscenes.VideoCutscene;
 import hxvlc.flixel.FlxVideoSprite;
+import flixel.effects.FlxFlicker;
+
 var video = null; // used for overlapping the whole camera
 
 var skarletPunch:FunkinSprite = new FunkinSprite();
@@ -65,7 +67,7 @@ function create() {
 function videokill(){
     video.destroy();
     for (i in [skarletBar,moraBar,timeBar,timeBarBG,timeTxt])i.alpha = 1;
-    for (icons in [playerIcon,opponentIcon])
+    for (icons in [icon2,icon1])
         icons.alpha = 1;
 }
 
@@ -89,7 +91,10 @@ function fatality(){
     new FlxTimer().start(2, function(tmr)
         {
             dad.playAnim("jumpscare", true);
-            dad.animation.finishCallback = function (name:String) dad.alpha = 0.001;
+            dad.animation.finishCallback = function (name:String){
+                if (name == "jumpscare")
+                    dad.visible = false;
+            }
             new FlxTimer().start(.5, function(tmr)
                 {
                     boyfriend.playAnim("final-blow", true, "LOCK");
@@ -114,9 +119,12 @@ function fatality(){
                             {
 
                                 boyfriend.playAnim('hey', true, "LOCK");
-                                dad.alpha = 1;
+                                dad.visible = true;
                                 dad.playAnim("ko", true, "LOCK");
-                                dad.animation.finishCallback = function (name:String) dad.alpha = 0.001;
+                                dad.animation.finishCallback = function (name){
+                                    //if (name == "ko")
+                                        dad.visible = false;
+                                }
                                 for (i in [moraBar, opponentIcon]){
                                     FlxFlicker.flicker(i, Conductor.crochet / 1000 *4, 0.1, true, true, function(flick:FlxFlicker){
                                         moraBar.alpha = 0.001;

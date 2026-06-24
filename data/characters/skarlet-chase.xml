@@ -1,15 +1,11 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" camx="-280" y="240" icon="skarlet" camy="100" scale="1" flipX="false" isPlayer="false">
-	<anim loop="false" x="-2" anim="idle" fps="24" y="0" name="idle"/>
-
-	<anim loop="false" x="29" anim="aim0" fps="24" y="-1" name="aim"/>
-
-	<anim loop="false" x="21" anim="aim loop" fps="24" y="-20" name="idle-aim"/>
-
-	<anim loop="false" x="2" anim="land" fps="24" y="674" name="land"/>
-
-	<anim loop="false" x="23" anim="backtoidle" fps="24" y="1" name="idle-back"/>
-
-	
-	<anim loop="false" x="42" anim="shooting" fps="24" y="-10" name="shoot"/>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="skarlet-chase" icon="skarlet" color="#e12f6a" y="250" camx="200" camy="40">
+	<anim name="idle" anim="idle"/>
+	<anim name="land" anim="land" x="5" y="675"/>
+	<anim name="aim" anim="aim0" x="35" y="0"/>
+	<anim name="shooting" anim="shooting" x="48" y="-9"/>
+	<anim name="back2idle" anim="backtoidle" x="27" y="1"/>
+	<anim name="idle-aim" anim="aim loop" x="27" y="-19" loop="true"/>
+	<anim name="idle-loop" anim="idle" loop="true" indices="8..13"/>
 </character>

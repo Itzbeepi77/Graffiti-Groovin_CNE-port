@@ -1,4 +1,4 @@
-static var botPlay:Bool = false;
+public var botPlay:Bool = false;
 
 function create(){
     bag.playAnim("idle", true);
@@ -6,6 +6,8 @@ function create(){
 }
 
 function update(elapsed:Float){
+    botPlay = FlxG.save.data.botPlay;
+
 	if (bag.animation.curAnim.name != null && bag.animation.curAnim.name == "idle"){
         bag.angle = Math.sin((Conductor.songPosition / 1000) * (Conductor.bpm / 120) * 1.0) * 5;
     } else {
@@ -18,17 +20,20 @@ function update(elapsed:Float){
     }
 }
 
-if (!FlxG.save.data.botPlay){
-    function onPlayerHit(e){
-        bag.playAnim("hit", true);
-        bag.angle = 0;
+function onPlayerHit(e){
+    bag.playAnim("hit", true);
+    bag.angle = 0;
+
+    if (!botPlay){
         bag.animation.finishCallback = function (_) {bag.playAnim("idle");}
     }
-} else if (FlxG.save.data.botPlay){
-    function onDadHit(e){
-		if (e.note.strumLine.opponentSide) return;
-        bag.playAnim("hit", true);
-        bag.angle = 0;
+}
+function onDadHit(e){
+    if (e.note.strumLine.opponentSide) return;
+    bag.playAnim("hit", true);
+    bag.angle = 0;
+    
+    if (botPlay){
         bag.animation.finishCallback = function (_) {bag.playAnim("idle");}
     }
 }

@@ -1,0 +1,15 @@
+{
+	"color": "#8F71FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"NORMAL"
+	],
+	"icon": "skarlet",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"displayName": "groovin",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 115
+}

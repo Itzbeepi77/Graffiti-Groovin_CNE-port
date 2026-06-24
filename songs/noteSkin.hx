@@ -12,7 +12,6 @@ function onStrumCreation(e) {
         case "soda-pop", "groovin", "streetstyle", "sinister", "fuss", "bunboxxin":
             e.sprite = 'game/notes/NOTE_skarlet';
     }
-    e.strum.alpha = 0.7;
 }
 
 function onSongStart(){

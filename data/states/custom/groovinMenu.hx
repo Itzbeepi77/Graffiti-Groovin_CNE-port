@@ -1,7 +1,4 @@
 // faq: I modified in more 20 times just to make the shitty menu states working, (not the gallery menu since it so easy to add it lmao)
-import funkin.backend.utils.DiscordUtil;
-import funkin.backend.scripting.events.DiscordPresenceUpdateEvent;
-import discord_rpc.DiscordRpc;
 import funkin.menus.MainMenuState;
 import funkin.backend.scripting.events.MenuChangeEvent;
 import funkin.backend.scripting.events.NameEvent;
@@ -40,8 +37,6 @@ public var canAccessDebugMenus:Bool = true;
 
 function postCreate() {
     CoolUtil.playMenuSong();
-    
-    DiscordUtil.changePresence("In Main Menu", null);
 
     var bg:FunkinSprite = new FunkinSprite().loadGraphic(Paths.image('menus/mmbg'));
     bg.scrollFactor.set(0.03, 0.03);

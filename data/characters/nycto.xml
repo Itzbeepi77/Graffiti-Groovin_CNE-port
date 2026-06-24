@@ -5,13 +5,13 @@
 	<anim x="101" loop="false" y="24" fps="24" anim="ascending" name="ascending"/>
 
 	
-	<anim x="-6" loop="false" y="-206" fps="24" anim="one" name="idle-one"/>
+	<anim x="-6" loop="false" y="-206" fps="24" anim="one" name="one"/>
 
 	
-	<anim x="83" loop="false" y="-181" fps="24" anim="two" name="idle-two"/>
+	<anim x="83" loop="false" y="-181" fps="24" anim="two" name="two"/>
 
 	
-	<anim x="239" loop="false" y="185" fps="24" anim="three" name="idle-three"/>
+	<anim x="239" loop="false" y="185" fps="24" anim="three" name="three"/>
 
 	<anim x="42" loop="false" y="261" fps="24" anim="up" name="singUP"/>
 

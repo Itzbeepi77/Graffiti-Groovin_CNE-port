@@ -1,3 +1,11 @@
+#pragma header
+
+#define iResolution openfl_TextureSize
+#define iChannel0 bitmap
+#define iChannel1 bitmap
+#define texture texture2D
+
+uniform float iTime;
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
 {
     float seperation = 0.005;
@@ -19,4 +27,10 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     vec4 blue = texture2D(iChannel0, uv-offsetBlue);
     
     fragColor = vec4(red.r, green.g, blue.b, 1.0);
+}
+void main(){
+    gl_FragColor=flixel_texture2D(bitmap,openfl_TextureCoordv);
+    vec2 coord=openfl_TextureCoordv;
+    vec2 fragCoord=(coord*openfl_TextureSize);
+    mainImage(gl_FragColor,fragCoord);
 }

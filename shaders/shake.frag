@@ -1,3 +1,13 @@
+#pragma header
+
+#define iResolution openfl_TextureSize
+#define iChannel0 bitmap
+#define iChannel1 bitmap
+#define texture texture2D
+
+uniform float iTime;
+//uniform vec4 iMouse;
+
 vec2 random2(float seed)
 {
     float rand1 = fract(sin(seed) * 43758.5453123);
@@ -31,4 +41,10 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ){
 
     fragColor = vec4(col ,1.0);
   
+}
+void main(){
+     gl_FragColor=flixel_texture2D(bitmap,openfl_TextureCoordv);
+     vec2 coord=openfl_TextureCoordv;
+     vec2 fragCoord=(coord*openfl_TextureSize);
+     mainImage(gl_FragColor,fragCoord);
 }

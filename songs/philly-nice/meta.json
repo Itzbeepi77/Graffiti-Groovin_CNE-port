@@ -1,1 +1,17 @@
-null
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 175,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -8424963,
+	"displayName": "philly-nice",
+	"icon": "pico",
+	"name": "philly-nice",
+	"color": "#7F71FD",
+	"customValues": {}
+}

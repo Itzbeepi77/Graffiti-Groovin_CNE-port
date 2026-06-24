@@ -70,6 +70,18 @@ function onEvent(e){// don't ask about it
                                     camGame.shake(0.015, 0.1);
                                     new FlxTimer().start(0.5, function(tmr:FlxTimer){
                                         hench.playAnim("death", true);
+                                        hench.animation.finishCallback = function (name:String) {
+                                        if (name == 'death'){
+                                            FlxFlicker.flicker(hench, 1.5, 0.1, true, true, function(flick:FlxFlicker)
+                                        {
+                                            hench.alpha = 0.001;
+                                            FlxG.sound.play(Paths.sound('pium'), 0.2);
+                                            for (henchShit in [hench,truck_bg]){
+                                                FlxTween.tween(henchShit, {x: henchShit.x-1475}, 2.5, {ease:FlxEase.expoIn});
+                                                }
+                                            });
+                                            }
+                                        }
                                         FlxG.sound.play(Paths.sound("shoot"));
                                         gf.playAnim("shoot", true);
                                         camGame.shake(0.015, 0.1);

@@ -1,37 +1,18 @@
 <!DOCTYPE codename-engine-character>
-<character x="380" y="190" icon="mora" isGF="false" camy="290" flipX="true" isPlayer="false" sprite="mora-fight-atlas" color="#6B25D4">
-	<anim loop="false" x="-5" anim="idle" fps="24" y="0" name="idle"/>
-
-	<anim loop="false" x="-371" anim="hurt" fps="24" y="3" name="hurt"/>
-
-    
-	<anim loop="false" x="-171" anim="attack" fps="24" y="26" name="attack"/>
-
-    
-	<anim loop="false" x="-22" anim="laugh" fps="24" y="40" name="laugh"/>
-
-    
-	<anim loop="false" x="-551" anim="jumpscare" fps="24" y="42" name="jumpscare"/>
-
-    
-	<anim loop="false" x="-110" anim="angry" fps="24" y="37" name="angy"/>
-
-    
-	<anim loop="false" x="-175" anim="ko" fps="24" y="280" name="ko"/>
-
-	<anim loop="false" x="-37" anim="up" fps="24" y="72" name="singUP"/>
-
-	<anim loop="false" x="-85" anim="left" fps="24" y="17" name="singRIGHT"/>
-
-	<anim loop="false" x="23" anim="right" fps="24" y="19" name="singLEFT"/>
-
-	<anim loop="false" x="-64" anim="down" fps="24" y="-56" name="singDOWN"/>
-
-	<anim loop="false" x="-41" anim="up alt" fps="24" y="72" name="singUP-alt"/>
-
-	<anim loop="false" x="-85" anim="left alt" fps="24" y="18" name="singRIGHT-alt"/>
-
-	<anim loop="false" x="21" anim="right alt" fps="24" y="21" name="singLEFT-alt"/>
-
-	<anim loop="false" x="-57" anim="down alt" fps="24" y="-55" name="singDOWN-alt"/>
+<character iconoffsetx="-50" x="50" y="200" sprite="mora-fight-atlas" flipX="true" camx="-390" camy="-290" icon="mora" color="#6B25D4" applyStageMatrix="true" isGF="false">
+	<anim name="idle" anim="idle" x="-5"/>
+	<anim name="hurt" anim="hurt" x="99" y="4"/>
+	<anim name="attack" anim="attack" x="-805" y="26"/>
+	<anim name="laugh" anim="laugh" x="11" y="40"/>
+	<anim name="jumpscare" anim="jumpscare" x="97" y="40"/>
+	<anim name="angy" anim="angry" x="94" y="34"/>
+	<anim name="ko" anim="ko" x="455" y="280"/>
+	<anim name="singUP" anim="up" x="-22" y="67"/>
+	<anim name="singRIGHT" anim="left" x="-20" y="17"/>
+	<anim name="singLEFT" anim="right" x="38" y="19"/>
+	<anim name="singDOWN" anim="down" x="-64" y="-56"/>
+	<anim name="singUP-alt" anim="up alt" x="-21" y="67"/>
+	<anim name="singRIGHT-alt" anim="left alt" x="-103" y="17"/>
+	<anim name="singLEFT-alt" anim="right alt" x="92" y="19"/>
+	<anim name="singDOWN-alt" anim="down alt" x="-47" y="-56"/>
 </character>

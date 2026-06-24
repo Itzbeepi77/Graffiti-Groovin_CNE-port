@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/metro/images/" zoom="0.7">
+<stage folder="stages/metro/images/" zoom="0.7" startCamPosX="1200" startCamPosY="700">
 	<sprite x="101.5" y="-81" sprite="background" scale="1.05" name="bg" scroll="0.95"/>
 
 	<sprite x="674" y="541" sprite="boppers_left" type="none" name="bopsL" scroll="0.9">

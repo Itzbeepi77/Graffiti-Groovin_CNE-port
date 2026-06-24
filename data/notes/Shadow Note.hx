@@ -14,30 +14,33 @@ function onNoteCreation(e){
     var curNotes = e.noteType;
     var note = e.note;
 
+    note.copyStrumAngle = false;
+
     switch (curNotes) {
         case "Shadow Note":
             e.cancel();
 
             if (!e.cancel){
                 note.frames = Paths.getFrames("stages/fightuwu/images/arrow-nycto");
-                switch (e.strumID % 4) {
+                switch (e.strumID) {
                     case 0:
                         note.animation.addByPrefix('scroll', 'plague note', 24, true);
-                        //note.offset.angle = 270;
+                        note.angle = 270;
                     case 1:
                         note.animation.addByPrefix('scroll', 'plague note', 24, true);
-                        //note.offset.angle = 180;
+                        note.angle = 180;
                     case 2:
                         note.animation.addByPrefix('scroll', 'plague note', 24, true);
-                        //note.offset.angle = 0;
+                        note.angle = 0;
                     case 3:
                         note.animation.addByPrefix('scroll', 'plague note', 24, true);
-                        //note.offset.angle = 90;
+                        note.angle = 90;
                 }
                 note.scale.set(0.7, 0.7);
                 note.updateHitbox();
                 e.note.avoid = true;
                 e.note.canBeHit = false;
+                e.note.wasGoodHit = false;
                 //note.splash = "default";
         }
     }
@@ -45,6 +48,8 @@ function onNoteCreation(e){
 function onPostNoteCreation(e){
     var curNotes = e.noteType;
     var note = e.note;
+
+    note.forceIsOnScreen = true;
 
     if (curNotes == "Shadow Note"){
         note.offset.x -= 20;
